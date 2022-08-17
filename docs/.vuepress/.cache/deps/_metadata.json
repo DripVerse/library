@@ -1,0 +1,86 @@
+{
+  "hash": "14b80861",
+  "browserHash": "5177a1a9",
+  "optimized": {
+    "@vue/devtools-api": {
+      "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
+      "file": "@vue_devtools-api.js",
+      "fileHash": "5b496439",
+      "needsInterop": false
+    },
+    "@vuepress/shared": {
+      "src": "../../../../node_modules/@vuepress/shared/dist/index.js",
+      "file": "@vuepress_shared.js",
+      "fileHash": "3dfbfc24",
+      "needsInterop": false
+    },
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "ef61598d",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "src": "../../../../node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "file": "vue-router.js",
+      "fileHash": "ab9ee966",
+      "needsInterop": false
+    },
+    "chart.js/auto": {
+      "src": "../../../../node_modules/chart.js/auto/auto.mjs",
+      "file": "chart_js_auto.js",
+      "fileHash": "3c70ab28",
+      "needsInterop": false
+    },
+    "echarts": {
+      "src": "../../../../node_modules/echarts/index.js",
+      "file": "echarts.js",
+      "fileHash": "c07951ad",
+      "needsInterop": false
+    },
+    "flowchart.js": {
+      "src": "../../../../node_modules/flowchart.js/index.js",
+      "file": "flowchart_js.js",
+      "fileHash": "370ecdf4",
+      "needsInterop": true
+    },
+    "mermaid": {
+      "src": "../../../../node_modules/mermaid/dist/mermaid.esm.min.mjs",
+      "file": "mermaid.js",
+      "fileHash": "2afbeb11",
+      "needsInterop": false
+    },
+    "@vue/repl": {
+      "src": "../../../../node_modules/@vue/repl/dist/vue-repl.js",
+      "file": "@vue_repl.js",
+      "fileHash": "81bdf261",
+      "needsInterop": false
+    },
+    "register-service-worker": {
+      "src": "../../../../node_modules/register-service-worker/index.js",
+      "file": "register-service-worker.js",
+      "fileHash": "4211f849",
+      "needsInterop": false
+    },
+    "@vueuse/core": {
+      "src": "../../../../node_modules/@vueuse/core/index.mjs",
+      "file": "@vueuse_core.js",
+      "fileHash": "57a67db0",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-D6VFK3YV": {
+      "file": "chunk-D6VFK3YV.js"
+    },
+    "chunk-HSWFPIDS": {
+      "file": "chunk-HSWFPIDS.js"
+    },
+    "chunk-ZHO45L4G": {
+      "file": "chunk-ZHO45L4G.js"
+    },
+    "chunk-LSYFD7Z3": {
+      "file": "chunk-LSYFD7Z3.js"
+    }
+  }
+}
