@@ -8,7 +8,8 @@ category:
 
 ## Catalog
 
-- [Whitepaper v1.0](whitepaper.md)
+- [SmartNFT Whitepaper](SmartNFT.md)
+<!-- - [DripVerse Whitepaper](dripverse.md) -->
 
 <!-- - [Page Config](page.md)
 
