@@ -17,7 +17,12 @@ features:
   - title: Smart NFT Litepaper
     icon: copy
     details: Read complete Smart NFT Litepaper. DripVerse v1.0.0
-    link: /litepaper/SmartNFT
+    link: /litepaper
+
+  # - title: Smart NFT Whitepaper
+  #   icon: copy
+  #   details: Read complete Smart NFT Whitepaper. DripVerse v1.0.0
+  #   link: /whitepaper/SmartNFT
 
 #   - title: Slide page
 #     icon: slides

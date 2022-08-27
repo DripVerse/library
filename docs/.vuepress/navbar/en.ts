@@ -3,7 +3,7 @@ import { version } from 'vuepress-theme-hope/package.json';
 
 export const en = navbar([
   // '/',
-  { text: 'Litepaper', icon: 'creative', link: '/litepaper/' },
+  { text: 'Litepaper', icon: 'creative', link: '/litepaper' },
   // { text: 'Whitepaper', icon: 'creative', link: '/whitepaper/' },
   // { text: 'Guide', icon: 'creative', link: '/guide/' },
   // {

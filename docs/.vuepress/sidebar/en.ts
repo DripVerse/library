@@ -5,11 +5,9 @@ export const en = sidebar({
     '',
     // 'slide',
     {
-      icon: 'creative',
+      icon: 'note',
       text: 'Litepaper',
-      prefix: 'litepaper/',
-      link: 'litepaper/',
-      children: 'structure',
+      link: 'litepaper'
     },
     // {
     //   icon: 'creative',
