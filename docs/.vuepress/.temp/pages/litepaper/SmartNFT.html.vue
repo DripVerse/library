@@ -1,4 +1,4 @@
-<template><div><h1 id="smart-nft" tabindex="-1"><a class="header-anchor" href="#smart-nft" aria-hidden="true">#</a> Smart NFT</h1>
+<template><div><h1 id="smart-nft-litepaper" tabindex="-1"><a class="header-anchor" href="#smart-nft-litepaper" aria-hidden="true">#</a> Smart NFT LitePaper</h1>
 <p>SuperCharge your NFTs</p>
 <p>v<strong>0.1.0</strong></p>
 <p>Authors: <strong>Kumar Anirudha</strong></p>
@@ -9,11 +9,9 @@
 Adding additional utility over an NFT already adds to more ways to use it.</p>
 <h2 id="summary" tabindex="-1"><a class="header-anchor" href="#summary" aria-hidden="true">#</a> Summary</h2>
 <p>Smart NFTs are open protocol to create and distribute NFTs with programmable, actionable utility. Drip dev tools like plugins and SDKs will support this this utility usage across platforms and networks.</p>
-<h1 id="smart-nft-1" tabindex="-1"><a class="header-anchor" href="#smart-nft-1" aria-hidden="true">#</a> Smart NFT</h1>
+<h1 id="smart-nft" tabindex="-1"><a class="header-anchor" href="#smart-nft" aria-hidden="true">#</a> Smart NFT</h1>
 <h2 id="adding-utility-to-nfts" tabindex="-1"><a class="header-anchor" href="#adding-utility-to-nfts" aria-hidden="true">#</a> Adding Utility to NFTs</h2>
-<h2 id="eip-standard-proposed" tabindex="-1"><a class="header-anchor" href="#eip-standard-proposed" aria-hidden="true">#</a> EIP Standard (proposed)</h2>
 <h1 id="interoperable-assets-multilink" tabindex="-1"><a class="header-anchor" href="#interoperable-assets-multilink" aria-hidden="true">#</a> Interoperable Assets - MultiLink</h1>
-<h2 id="apis" tabindex="-1"><a class="header-anchor" href="#apis" aria-hidden="true">#</a> APIs</h2>
 <h3 id="intra-services" tabindex="-1"><a class="header-anchor" href="#intra-services" aria-hidden="true">#</a> Intra-Services</h3>
 <h3 id="plugins" tabindex="-1"><a class="header-anchor" href="#plugins" aria-hidden="true">#</a> Plugins</h3>
 <h2 id="sdk" tabindex="-1"><a class="header-anchor" href="#sdk" aria-hidden="true">#</a> SDK</h2>

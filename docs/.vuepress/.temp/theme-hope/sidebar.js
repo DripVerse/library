@@ -1,1 +1,1 @@
-export const sidebarData = {"/whitepaper/":["SmartNFT.md"]}
+export const sidebarData = {"/litepaper/":["SmartNFT.md"]}

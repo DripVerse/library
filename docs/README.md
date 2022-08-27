@@ -6,18 +6,18 @@ heroImage: /logo.png
 heroText: Welcome to the DripVerse Library
 tagline: All relevant Docs related to and around DripVerse
 actions:
-  - text: Whitepaper 💡
-    link: /whitepaper/
-    type: primary
+  # - text: Whitepapers 💡
+  #   link: /whitepaper/
+  #   type: primary
 
-  # - text: Blog homepage 🏠
-  #   link: /
+  - text: Blog 🖊
+    link: https://blog.dripverse.org
 
-# features:
-#   - title: Whitepaper
-#     icon: markdown
-#     details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in markdown
-#     link: https://vuepress-theme-hope.github.io/v2/guide/markdown/
+features:
+  - title: Smart NFT Litepaper
+    icon: copy
+    details: Read complete Smart NFT Litepaper. DripVerse v1.0.0
+    link: /litepaper/SmartNFT
 
 #   - title: Slide page
 #     icon: slides

@@ -6,11 +6,18 @@ export const en = sidebar({
     // 'slide',
     {
       icon: 'creative',
-      text: 'Whitepaper',
-      prefix: 'whitepaper/',
-      link: 'whitepaper/',
+      text: 'Litepaper',
+      prefix: 'litepaper/',
+      link: 'litepaper/',
       children: 'structure',
     },
+    // {
+    //   icon: 'creative',
+    //   text: 'Whitepaper',
+    //   prefix: 'whitepaper/',
+    //   link: 'whitepaper/',
+    //   children: 'structure',
+    // },
     // {
     //   icon: 'creative',
     //   text: 'Guide',

@@ -1,17 +1,17 @@
 ---
-title: Smart NFT
+title: Smart NFT LitePaper
 icon: file
 order: 1
 date: 2022-08-26
 category:
-  - Whitepaper
+  - Litepaper
 tag:
-  - Whitepaper
+  - Litepaper
 sticky: true
 star: true
 ---
 
-# Smart NFT
+# Smart NFT LitePaper
 
 SuperCharge your NFTs
 
@@ -33,11 +33,7 @@ Smart NFTs are open protocol to create and distribute NFTs with programmable, ac
 
 ## Adding Utility to NFTs
 
-## EIP Standard (proposed)
-
 # Interoperable Assets - MultiLink
-
-## APIs
 
 ### Intra-Services
 
