@@ -63,10 +63,8 @@ We will have our own token to support various activities across platforms as wel
 # Multi-Chain Explorer
 A lot of assets moving cross-chain will make sense only we've more visibility over it. This will include tracking the assets from the source network to destination network including any transitions they might have to go through. We will eventually also open the APIs to the same for adding Dune like platforms to create analytics over it.
 
-# Architecture
+# High Level Architecture
+![High Level Architecture of Smart NFT Tooling](https://i.imgur.com/Z7lHIY7.png "Smart NFT Tooling Block Architecture")
 
 # Conclusion
-
-# Acknowledgements
-
-# References
+Smart NFTs are the undoubtedly future of NFTs. And DripVerse Tools are here to enrich and grow the ecosystem.

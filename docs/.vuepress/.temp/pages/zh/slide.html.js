@@ -1,14 +1,1 @@
-export const data = JSON.parse("{\"key\":\"v-998b2620\",\"path\":\"/zh/slide.html\",\"title\":\"幻灯片页\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"幻灯片页\",\"icon\":\"slides\",\"layout\":\"Slide\",\"summary\":\"@slidestart 幻灯片演示 一个简单的幻灯片演示与各种小贴士。 \\\" 作者 DripVerse Team. 请滚动鼠标滚轮进入下一页\\\" --- 标注幻灯片 👇 -- 标注幻灯片 使用 --- 标注水平幻灯片 在水平幻灯片中使用 -- 分割垂直幻灯片 使用 `` 在幻灯片上添加属性 使用 `` 在前一个 HTML 元素上添加属性 --- Markdow\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://vuepress-theme-hope-v2-demo.netlify.app/zh/slide.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"DripVerse Library\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"幻灯片页\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"link\",{\"rel\":\"canonical\",\"href\":\"https://library.dripverse.org/zh/slide.html\"}]]},\"excerpt\":\"\",\"headers\":[],\"readingTime\":{\"minutes\":4.51,\"words\":1352},\"filePathRelative\":\"zh/slide.md\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
+export const data = JSON.parse("{\"key\":\"v-998b2620\",\"path\":\"/zh/slide.html\",\"title\":\"幻灯片页\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"幻灯片页\",\"icon\":\"slides\",\"layout\":\"Slide\",\"summary\":\"@slidestart 幻灯片演示 一个简单的幻灯片演示与各种小贴士。 \\\" 作者 DripVerse Team. 请滚动鼠标滚轮进入下一页\\\" --- 标注幻灯片 👇 -- 标注幻灯片 使用 --- 标注水平幻灯片 在水平幻灯片中使用 -- 分割垂直幻灯片 使用 `` 在幻灯片上添加属性 使用 `` 在前一个 HTML 元素上添加属性 --- Markdow\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://library.dripverse.org/zh/slide.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"DripVerse Library\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"幻灯片页\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2022-08-17T20:57:16.000Z\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2022-08-17T20:57:16.000Z\"}]]},\"excerpt\":\"\",\"headers\":[],\"git\":{\"createdTime\":1660769836000,\"updatedTime\":1660769836000,\"contributors\":[{\"name\":\"Kumar Anirudha\",\"email\":\"mail@anirudha.dev\",\"commits\":1}]},\"readingTime\":{\"minutes\":4.51,\"words\":1352},\"filePathRelative\":\"zh/slide.md\",\"localizedDate\":\"August 18, 2022\"}")
