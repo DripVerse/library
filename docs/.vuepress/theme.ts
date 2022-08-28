@@ -9,7 +9,7 @@ export default hopeTheme({
   hostname,
 
   author: {
-    name: 'DripVerse Team',
+    name: 'DripVerse',
     url: 'https://alpha.dripverse.org',
   },
 
@@ -70,7 +70,7 @@ export default hopeTheme({
       // sidebar
       sidebar: sidebar.en,
 
-      footer: 'Default footer',
+      footer: 'This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send an email legal@dripverse.org.',
 
       displayFooter: true,
 
@@ -80,7 +80,7 @@ export default hopeTheme({
       },
 
       metaLocales: {
-        editLink: 'Edit this page on GitHub',
+        editLink: 'Contribute to this page',
       },
     },
 

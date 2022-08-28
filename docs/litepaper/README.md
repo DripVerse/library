@@ -2,6 +2,7 @@
 title: Smart NFT LitePaper
 icon: file
 order: 1
+date: 2022-08-26
 category:
   - Litepaper
 tag:
@@ -11,10 +12,8 @@ star: true
 ---
 
 # Smart NFT LitePaper
-
-SuperCharge your NFTs
-
-v**0.1.0**
+Author: [Kumar Anirudha](https://twitter.com/kranirudha)
+### _SuperCharge your NFTs_
 
 ## Abstract
 NFTs are awesome but it's incomplete as it is right now. PFP NFTs can only be used in so many cases. The future lies in adding utility to NFTs. In this paper we will discuss the limitations of current NFT ecosystem and how our platform can add power to your current NFTs as well as make it easier to develop, integrate and use NFTs as integrations to various platforms.

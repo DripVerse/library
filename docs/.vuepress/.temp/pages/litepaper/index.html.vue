@@ -1,7 +1,6 @@
 <template><div><h1 id="smart-nft-litepaper" tabindex="-1"><a class="header-anchor" href="#smart-nft-litepaper" aria-hidden="true">#</a> Smart NFT LitePaper</h1>
-<p>SuperCharge your NFTs</p>
-<p>v<strong>0.1.0</strong></p>
-<p>Authors: <strong>Kumar Anirudha</strong></p>
+<p>Author: <a href="https://twitter.com/kranirudha" target="_blank" rel="noopener noreferrer">Kumar Anirudha<ExternalLinkIcon/></a></p>
+<h3 id="supercharge-your-nfts" tabindex="-1"><a class="header-anchor" href="#supercharge-your-nfts" aria-hidden="true">#</a> <em>SuperCharge your NFTs</em></h3>
 <h2 id="abstract" tabindex="-1"><a class="header-anchor" href="#abstract" aria-hidden="true">#</a> Abstract</h2>
 <p>NFTs are awesome but it's incomplete as it is right now. PFP NFTs can only be used in so many cases. The future lies in adding utility to NFTs. In this paper we will discuss the limitations of current NFT ecosystem and how our platform can add power to your current NFTs as well as make it easier to develop, integrate and use NFTs as integrations to various platforms.</p>
 <h1 id="introduction" tabindex="-1"><a class="header-anchor" href="#introduction" aria-hidden="true">#</a> Introduction</h1>
@@ -35,6 +34,5 @@ We provide an SDK and other dev tools to ease this process of creating Smart NFT
 <h1 id="high-level-architecture" tabindex="-1"><a class="header-anchor" href="#high-level-architecture" aria-hidden="true">#</a> High Level Architecture</h1>
 <p><img src="https://i.imgur.com/Z7lHIY7.png" alt="High Level Architecture of Smart NFT Tooling" title="Smart NFT Tooling Block Architecture" loading="lazy"></p>
 <h1 id="conclusion" tabindex="-1"><a class="header-anchor" href="#conclusion" aria-hidden="true">#</a> Conclusion</h1>
-<h1 id="acknowledgements" tabindex="-1"><a class="header-anchor" href="#acknowledgements" aria-hidden="true">#</a> Acknowledgements</h1>
-<h1 id="references" tabindex="-1"><a class="header-anchor" href="#references" aria-hidden="true">#</a> References</h1>
+<p>Smart NFTs are the undoubtedly future of NFTs. And DripVerse Tools are here to enrich and grow the ecosystem.</p>
 </div></template>

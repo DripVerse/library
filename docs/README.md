@@ -104,8 +104,8 @@ features:
 #     details: Including icon support, fullscreen button, etc.
 #     link: https://vuepress-theme-hope.github.io/v2/guide/feature/
 
-copyright: false
-footer: MIT Licensed | Copyright © 2022-present DripVerse
+copyright: This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send an email to legal@dripverse.org.
+footer: Copyright © 2022-present DripVerse
 ---
 
 <!-- This is an example of a project homepage. You can place your main content here.

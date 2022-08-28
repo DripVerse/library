@@ -1,1 +1,14 @@
-export const data = JSON.parse("{\"key\":\"v-0e503981\",\"path\":\"/slide.html\",\"title\":\"Slide page\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Slide page\",\"icon\":\"slides\",\"layout\":\"Slide\",\"summary\":\"@slidestart Slide Demo A simple slide demo and useful hints. \\\" By DripVerse Team. Please scroll mousewheel down to the next slide\\\" --- Marking Slides 👇 -- Marking Slides Use --- t\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://library.dripverse.org/slide.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"DripVerse Library\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Slide page\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2022-08-17T20:57:16.000Z\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2022-08-17T20:57:16.000Z\"}]]},\"excerpt\":\"\",\"headers\":[],\"git\":{\"createdTime\":1660769836000,\"updatedTime\":1660769836000,\"contributors\":[{\"name\":\"Kumar Anirudha\",\"email\":\"mail@anirudha.dev\",\"commits\":1}]},\"readingTime\":{\"minutes\":3.24,\"words\":973},\"filePathRelative\":\"slide.md\",\"localizedDate\":\"August 18, 2022\"}")
+export const data = JSON.parse("{\"key\":\"v-0e503981\",\"path\":\"/slide.html\",\"title\":\"Slide page\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Slide page\",\"icon\":\"slides\",\"layout\":\"Slide\",\"summary\":\"@slidestart Slide Demo A simple slide demo and useful hints. \\\" By DripVerse Team. Please scroll mousewheel down to the next slide\\\" --- Marking Slides 👇 -- Marking Slides Use --- t\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://library.dripverse.org/slide.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"DripVerse Library\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Slide page\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}]]},\"excerpt\":\"\",\"headers\":[],\"readingTime\":{\"minutes\":3.24,\"words\":973},\"filePathRelative\":\"slide.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
