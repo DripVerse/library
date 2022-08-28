@@ -3,26 +3,26 @@ import * as navbar from './navbar';
 import * as sidebar from './sidebar';
 
 const hostname =
-  process.env.HOSTNAME || 'https://vuepress-theme-hope-v2-demo.netlify.app';
+  process.env.HOSTNAME || 'https://library.dripverse.org';
 
 export default hopeTheme({
   hostname,
 
   author: {
     name: 'DripVerse Team',
-    url: 'https://testnet.dripverse.org',
+    url: 'https://alpha.dripverse.org',
   },
 
   iconAssets: '//at.alicdn.com/t/font_2410206_a0xb9hku9iu.css',
 
   logo: '/logo.png',
 
-  repo: 'acycliclabs/library',
+  repo: 'DripVerse/library',
 
   docsDir: 'docs',
 
   // pageInfo: ['Author', 'Original', 'Date', 'Category', 'Tag', 'ReadingTime'],
-  pageInfo: ['Original', 'Date', 'ReadingTime'],
+  pageInfo: ['Date', 'ReadingTime'],
 
   blog: {
     medias: {
@@ -75,7 +75,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: 'A FrontEnd programmer',
+        description: 'The Team behind DripVerse',
         intro: '/intro.html',
       },
 
@@ -130,7 +130,7 @@ export default hopeTheme({
        * Using Giscus
        */
       provider: 'Giscus',
-      repo: 'vuepress-theme-hope/giscus-discussions',
+      repo: 'DripVerse/library',
       repoId: 'R_kgDOG_Pt2A',
       category: 'Announcements',
       categoryId: 'DIC_kwDOG_Pt2M4COD69',
@@ -195,9 +195,9 @@ export default hopeTheme({
         ],
         shortcuts: [
           {
-            name: 'Dripverse Whitepaer',
-            short_name: 'Whitepaer',
-            url: '/whitepaper/',
+            name: 'Dripverse Litepaer',
+            short_name: 'Litepaer',
+            url: '/litepaper/',
             icons: [
               {
                 src: '/assets/icon/guide-maskable.png',
