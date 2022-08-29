@@ -62,5 +62,15 @@ A lot of assets moving cross-chain will make sense only we've more visibility ov
 # High Level Architecture
 ![High Level Architecture of Smart NFT Tooling](https://i.imgur.com/Z7lHIY7.png "Smart NFT Tooling Block Architecture")
 
+# Who can use DripVerse
+There is two major aspects of DripVerse which combines to form the supportive tools for Smart NFTs. The Buidling aspect and the Using aspect. The builders are Token Gated Communities, Brands, Metaverses, Digital Events and other service providers using NFTs in their own products for their users. The users are the users of said platforms who would be motivated to use more of it if given additional benefits and use-cases over that they're currently receiving.
+Nurturing is both is equally important.
+
+## Builders
+DripVerse enables builders to reduce their building time and resource usage by almost one-tenth, while maintaining a greater control over the utility to be integrated. Thereby also reducing the time and cost to the project not just while development but also while maintaining as it'd be a click away to upgrade. Using the no-code UI provided, builders who are also non-programmers can take advantage of the integration and be done within minutes from what would have been an affair of weeks.
+
+## Explorers
+While the advantages are greater for the builders, the users or explorers will also stand to gain the freedom to move the assets freely and seemlessly across chain and networks. Supporting multiple wallets and a wide range of supported marketplaces, bridges and options to choose from. Since the custom Smart NFT contract will reduce the number of transactions as well as lower fee by moving most excrutiating tasks to Layer 2 network, thereby saving in millions throughout.
+
 # Conclusion
 Smart NFTs are the undoubtedly future of NFTs. And DripVerse Tools are here to enrich and grow the ecosystem.
