@@ -5,11 +5,10 @@ sidebar_label: 🚀 Quick Start
 hide_table_of_contents: true
 ---
 
-import { MintVideo, AddUtilityVideo, GenerateKeyVideo } from "@site/components/featurelist"
+import { VideoCard } from "@site/components/featurelist"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
-let DripSDK;
 
 :::info
 Once your're approved, you're all set to explore the whole platform and integrate DripVerse in your DApp. This guide will step your through your first utility creation and integration in your own platform through Drip SDK.
@@ -20,7 +19,7 @@ Once your're approved, you're all set to explore the whole platform and integrat
 - Head over to [https://alpha.dripverse.org/nft/mint](https://alpha.dripverse.org/nft/mint).
 - Fill all the appropriate fields, click on **Submit** and sign the transaction.
 
-<MintVideo />
+<VideoCard url="https://assets.dripverse.org/videos/mint.mp4" />
 
 ## Step 2: Add Utility
 
@@ -28,7 +27,7 @@ If the transation goes through and your NFT is successfully minted, you'll be re
 
 - To add a utility, click on **Create new**, fill the relevant details and click **Submit** and sign the transaction.
 
-<AddUtilityVideo />
+<VideoCard url="https://assets.dripverse.org/videos/add_utility.mp4" />
 
 ## Step 3: Generate project key
 
@@ -36,7 +35,7 @@ If the transation goes through and your NFT is successfully minted, you'll be re
 - Click on **Generate Key** and copy the key to your clipboard from the side menu.
 - Also note down your **UTILITY ID**, we'll use it in our SDK.
 
-<GenerateKeyVideo />
+<VideoCard url="https://assets.dripverse.org/videos/generate_key.mov" />
 
 ## Step 4: Integrating DripVerse SDK
 
@@ -61,13 +60,13 @@ Import the library in your project.
 <Tabs>
   <TabItem value="react" label="React/Typescript" default>
     <CodeBlock language="bash">
-      import {DripSDK} from "dripverse";
+      {`import { DripSDK } from "dripverse";`}
     </CodeBlock>
   </TabItem>
 
   <TabItem value="node" label="Node.js">
     <CodeBlock language="bash">
-      const {DripSDK} = require('dripverse')
+      {`const { DripSDK } = require('dripverse');`}
     </CodeBlock>
   </TabItem>
 </Tabs>
