@@ -47,6 +47,10 @@ We are starting to see some artists and celebrities coming up with their own NFT
 ## Smart NFT
 Smart NFTs is the next step in the evolution of NFTs which creates and distributes NFTs with programmable and actionable utility.
 We provide an SDK and other dev tools to ease the process of creating Smart NFTs. Our custom variation of ERC721 and ERC1155 as well as ERC4907 provides embedded utility inside the smart contract itself, which is linked back to additional private information readable by our SDKs and client libraries to support on various platforms, like mobile (Android, iOS), desktop(Linux, Mac, Windows) and web(Browser).
+The problem is that today, when we create Smart NFTs, we intend to make them single purpose use only. Because of course, a smart contract once written is not modified and most smart contracts are written with that sole purpose in mind. Our custom utility smart contract package can upgrade the metadata with drip object that can be read by our SDK. So, ultimately, we can essentially add infinite utilities to the same NFTs. Update them and also expire them as per need.
+
+## Nested NFTs
+Very specifically for the Metaverse and Dynamic NFTs space, Nested NFTs are going to play a huge role. Imagine not needing to store anything on your hybrid setup of private Database. The mapping is part of the metadata which can be changed and upgraded from anywhere. A truly open NFT protocol.
 
 ## Interoperable Assets
 Just adding more value to existing NFTs is not enough if it's limited to a single network. We also need to support multiple networks as well as be able to move the assets seamlessly across chains. We're creating our own custom NFT Bridge to support not only Layer 1 networks like Ethereum, Polkadot, Cosmos, Solana, but also Layer 2 networks like Polygon, Starknet, ZkSync, and many more. We'll also integrate external bridges like Router Protocol to add further support for token bridging and provide more options to the users.
