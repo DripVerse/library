@@ -37,17 +37,12 @@ You will get the nft information after the successful call of function, e.g
 [
   {
     id: 1,
-    creatorId: 3,
-    userId: 3,
     name: 'Into the Sea',
-    slug: 'IntotheSea',
     description: "A young women looking into the sea, for just all over there's horizon.",
     asset: 'https://bafybeibmfakbivzruu7f5or2ulgblhiat2g2bkenoon4hp7i45fqdrdzoi.ipfs.nftstorage.link/Konachan.com - 77204 flyable_heart itou_noiji shirasagi_mayuri.jpg',
     linkTo: '',
-    collectionId: 0,
     properties: { attributes: [Array] },
     supply: 1,
-    networkId: 1,
     ...
   }
 ]

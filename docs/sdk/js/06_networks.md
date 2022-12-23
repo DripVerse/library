@@ -35,20 +35,13 @@ You should get an output as an array with all the networks available for dripver
     id: 1,
     name: 'Polygon Mumbai',
     type: 'testnet',
-    icon: 'https://i.imgur.com/3u19IlD.png',
-    networkSlug: 'maticmum',
-    ...
-    createdAt: '2022-12-01T12:28:41.943Z',
-    updatedAt: '2022-12-01T12:28:41.943Z'
+    icon: 'https://i.imgur.com/3u19IlD.png'
   },
   {
     id: 2,
     name: 'Goerli',
     type: 'testnet',
-    icon: 'https://i.imgur.com/XLnDpcY.png',
-    ...
-    createdAt: '2022-12-01T12:28:41.959Z',
-    updatedAt: '2022-12-01T12:28:41.959Z'
+    icon: 'https://i.imgur.com/XLnDpcY.png'
   }
 ]
 ```
@@ -74,10 +67,6 @@ You will get the network information after the successful call of function, e.g
   id: 1,
   name: 'Polygon Mumbai',
   type: 'testnet',
-  icon: 'https://i.imgur.com/3u19IlD.png',
-  networkSlug: 'maticmum',
-  ...
-  createdAt: '2022-12-01T12:28:41.943Z',
-  updatedAt: '2022-12-01T12:28:41.943Z'
+  icon: 'https://i.imgur.com/3u19IlD.png'
 }
 ```
