@@ -1,55 +1,52 @@
 {
-    "guide": [
-        "guide/quickstart",
-        "guide/welcome",
-        {
-            "🔮 Vision": [
-                "guide/vision/pledge",
-                "guide/vision/turn",
-                "guide/vision/prestige"
-            ]
-        },
-        "guide/mission",
-        {
-            "💎 NFT": [
-                "guide/nft/about"
-            ]
-        },
-        "guide/supported/network",
-        {
-            "🔧 Utility": [
-                "guide/utility/introduction",
-                {
-                    "🗝️ Gatekeeper": [
-                        "guide/utility/gatekeeper/welcome",
-                        "guide/utility/gatekeeper/setup",
-                        "guide/utility/gatekeeper/sdk"
-                    ]
-                }
-            ]
-        },
-        "guide/versioning",
-        "guide/roadmap"
-    ],
-    "sdk": [
-        "sdk/welcome",
-        {
-            "JS": [
-                "sdk/js/introduction",
-                "sdk/js/setup",
-                "sdk/js/init",
-                "sdk/js/status",
-                "sdk/js/mint",
-                "sdk/js/verify"
-            ]
-        }
-    ],
-    "release": {
-        "🧪 Pre-Alpha": [
-            "release/latest"
-        ]
+  "guide": [
+    "guide/quickstart",
+    "guide/welcome",
+    {
+      "🔮 Vision": [
+        "guide/vision/pledge",
+        "guide/vision/turn",
+        "guide/vision/prestige"
+      ]
     },
-    "cli": [
-        "cli/welcome"
-    ]
+    "guide/mission",
+    {
+      "💎 NFT": ["guide/nft/about"]
+    },
+    "guide/supported/network",
+    {
+      "🔧 Utility": [
+        "guide/utility/introduction",
+        {
+          "🗝️ Gatekeeper": [
+            "guide/utility/gatekeeper/welcome",
+            "guide/utility/gatekeeper/setup",
+            "guide/utility/gatekeeper/sdk"
+          ]
+        }
+      ]
+    },
+    "guide/versioning",
+    "guide/roadmap"
+  ],
+  "sdk": [
+    "sdk/welcome",
+    {
+      "JS": [
+        "sdk/js/introduction",
+        "sdk/js/setup",
+        "sdk/js/init",
+        "sdk/js/status",
+        "sdk/js/mint",
+        "sdk/js/networks",
+        "sdk/js/contracts",
+        "sdk/js/get_nft",
+        "sdk/js/verify"
+      ]
+    }
+  ],
+  "release": {
+    "🧪 Pre-Alpha": ["release/latest"]
+  },
+  "cli": ["cli/welcome"]
 }
