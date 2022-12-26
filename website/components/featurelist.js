@@ -104,7 +104,7 @@ export const VideoCard = ({ url }) => {
 export function CardShelf({ children }) {
   return (
     <>
-      <div class="card-shelf">{children}</div>
+      <div className="card-shelf">{children}</div>
     </>
   );
 }
@@ -112,15 +112,15 @@ export function CardShelf({ children }) {
 export function CardItem({ image, title }) {
   return (
     <>
-      <div class="card-container">
+      <div className="card-container">
         <div
-          class="card bg"
+          className="card bg"
           style={{
             background: `url(${image})`,
           }}
         >
-          <div class="inner-content">
-            <div class="inner-text">
+          <div className="inner-content">
+            <div className="inner-text">
               <p>{title}</p>
             </div>
           </div>
