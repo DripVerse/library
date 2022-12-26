@@ -99,7 +99,7 @@ const releases = [
           "A consolidated dashboard to view all functionalities in one place. As we add more features to DripVerse, this will become the cornerstone to how you can integrate, integrate and progress with DripVerse.",
         link: "",
       },
-      "NFT Whitelist": {
+      "NFT Allowlist": {
         description:
           "Allow an exclusive sub-part of your community to access special features by whitelisting them.",
         link: "",
