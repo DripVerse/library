@@ -1,7 +1,7 @@
 ---
-id: get_nft
+id: nft
 title: DripVerse NFT
-sidebar_label: NFT
+sidebar_label: NFT Details
 hide_table_of_contents: false
 ---
 

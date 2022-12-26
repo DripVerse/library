@@ -1,7 +1,7 @@
 ---
 id: about
 title: Non-Fungible Token
-sidebar_label: 🔎 About NFT
+sidebar_label: 🔎 About NFTs
 hide_table_of_contents: false
 ---
 

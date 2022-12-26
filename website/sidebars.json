@@ -11,7 +11,10 @@
     },
     "guide/mission",
     {
-      "💎 NFT": ["guide/nft/about"]
+      "💎 NFT": [
+        "guide/nft/about",
+        "guide/nft/drop"
+      ]
     },
     "guide/supported/network",
     {
@@ -37,11 +40,11 @@
         "sdk/js/setup",
         "sdk/js/init",
         "sdk/js/status",
-        "sdk/js/mint",
+        "sdk/js/verify",
         "sdk/js/networks",
         "sdk/js/contracts",
-        "sdk/js/get_nft",
-        "sdk/js/verify"
+        "sdk/js/mint",
+        "sdk/js/nft"
       ]
     }
   ],
