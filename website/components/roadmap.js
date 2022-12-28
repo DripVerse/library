@@ -101,7 +101,7 @@ const releases = [
       },
       "NFT Allowlist": {
         description:
-          "Allow an exclusive sub-part of your community to access special features by whitelisting them.",
+          "Allow an exclusive sub-part of your community to access special features using NFTs.",
         link: "",
       },
       "NFT Drops": {
