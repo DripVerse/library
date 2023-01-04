@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 import {ReleaseHeader} from "@site/components/featurelist"
 
-# Version 0.4.12 [Current]
+# Version 0.4.25 [Current]
 
 | Available from | End of Life |
 | --- | --- |
