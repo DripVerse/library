@@ -109,16 +109,21 @@ module.exports = {
           label: "📖 Guide",
           position: "left",
         },
+        // {
+        //   to: "/cli/welcome",
+        //   label: ">_ CLI",
+        //   position: "right",
+        // },
         {
-          to: "/sdk/welcome",
+          to: "/sdk/js/introduction",
           label: "📦 SDK",
           position: "right",
         },
-        {
-          to: "/release/latest",
-          label: "✨ Releases",
-          position: "right",
-        },
+        // {
+        //   to: "/release/latest",
+        //   label: "✨ Releases",
+        //   position: "right",
+        // },
         {
           href: "https://alpha.dripverse.org",
           label: "🧪 DripVerse Alpha",

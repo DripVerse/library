@@ -94,9 +94,13 @@ const releases = [
     title: "Aplha",
     version: "0.5.0",
     updates: {
+      "Mainnet Pre-Alpha Release": {
+        description: "",
+        link: "",
+      },
       "BUIDL Dashboard": {
         description:
-          "A consolidated dashboard to view all functionalities in one place. As we add more features to DripVerse, this will become the cornerstone to how you can integrate, integrate and progress with DripVerse.",
+          "A consolidated dashboard to view all functionalities in one place. As we add more features to DripVerse, this will become the cornerstone to how you can integrate, integrate and progress with DripVerse. More features coming soon...",
         link: "",
       },
       "NFT Allowlist": {
@@ -108,8 +112,14 @@ const releases = [
         description: "Drop NFTs to your loyal community members.",
         link: "",
       },
-      "NFT Auction": {
-        description: "List NFTs publicly and get bids.",
+      "DripVerse CLI Tool": {
+        description:
+          "A Command Line Tool to run make it easy for terminal friendly interfaces. Access your files and nfts using drip command.",
+        link: "",
+      },
+      "NFT Bulk Mint": {
+        description:
+          "Bulk Mint NFTs securely using our command line tool. Mint single file or entire directory with one command.",
         link: "",
       },
     },

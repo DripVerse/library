@@ -39,6 +39,7 @@
         "sdk/js/introduction",
         "sdk/js/setup",
         "sdk/js/init",
+        "sdk/js/ethersjs",
         "sdk/js/status",
         "sdk/js/verify",
         "sdk/js/networks",

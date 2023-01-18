@@ -11,7 +11,11 @@ import { CardShelf, CardItem } from "@site/components/featurelist"
 ## Testnets:
 <CardShelf>
     <CardItem image="https://i.imgur.com/wcFrJCT.jpg" title="Polygon Mumbai" />
-    <CardItem image="https://i.imgur.com/clGIxbi.jpg" title="Goerli" />
+</CardShelf>
+
+## Mainnet (Coming Soon...):
+<CardShelf>
+    <CardItem image="https://i.imgur.com/wcFrJCT.jpg" title="Polygon" />
 </CardShelf>
 
 :::success
