@@ -122,6 +122,11 @@ const releases = [
           "Bulk Mint NFTs securely using our command line tool. Mint single file or entire directory with one command.",
         link: "",
       },
+      "Unstoppable Domains Auth Integrated": {
+        description:
+          "DripVerse Platform can now be accessed using easy to use domain names provided by Unstoppable Domains. If you have Unstoppable Domains account, you can login using that easily.",
+        link: "",
+      },
     },
     status: {
       ongoing: "blue",
