@@ -90,11 +90,11 @@ const releases = [
     },
   },
   {
-    startDate: "Ongoing",
-    title: "Aplha",
+    startDate: "January 2023",
+    title: "Pre-Aplha Mainnet",
     version: "0.5.0",
     updates: {
-      "Mainnet Pre-Alpha Release": {
+      "Mainnet Pre-Alpha Release: DripVerse Platform": {
         description: "",
         link: "",
       },
@@ -112,6 +112,11 @@ const releases = [
         description: "Drop NFTs to your loyal community members.",
         link: "",
       },
+      "Unstoppable Domains Auth Integrated": {
+        description:
+          "DripVerse Platform can now be accessed using easy to use domain names provided by Unstoppable Domains. If you have Unstoppable Domains account, you can login using that easily.",
+        link: "",
+      },
       "DripVerse CLI Tool": {
         description:
           "A Command Line Tool to run make it easy for terminal friendly interfaces. Access your files and nfts using drip command.",
@@ -122,9 +127,18 @@ const releases = [
           "Bulk Mint NFTs securely using our command line tool. Mint single file or entire directory with one command.",
         link: "",
       },
-      "Unstoppable Domains Auth Integrated": {
-        description:
-          "DripVerse Platform can now be accessed using easy to use domain names provided by Unstoppable Domains. If you have Unstoppable Domains account, you can login using that easily.",
+    },
+    status: {
+      active: "green",
+    },
+  },
+  {
+    startDate: "Ongoing",
+    title: "Aplha",
+    version: "1.0.0",
+    updates: {
+      "Listing on Rarible": {
+        description: "List your NFT on Rarible with one click.",
         link: "",
       },
     },
