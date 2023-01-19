@@ -13,14 +13,12 @@ const releases = [
         link: "",
       },
     },
-    status: {
-      past: "gray",
-    },
+    status: "past",
   },
   {
     startDate: "August 2022",
     title: "Ideation",
-    version: "0.0.1",
+    version: "0.1.0",
     updates: {
       Vision: {
         description:
@@ -28,9 +26,7 @@ const releases = [
         link: "",
       },
     },
-    status: {
-      past: "gray",
-    },
+    status: "past",
   },
   {
     startDate: "December 2022",
@@ -85,9 +81,7 @@ const releases = [
         link: "",
       },
     },
-    status: {
-      active: "green",
-    },
+    status: "past",
   },
   {
     startDate: "January 2023",
@@ -128,9 +122,7 @@ const releases = [
         link: "",
       },
     },
-    status: {
-      active: "green",
-    },
+    status: "active",
   },
   {
     startDate: "Ongoing",
@@ -142,57 +134,57 @@ const releases = [
         link: "",
       },
     },
-    status: {
-      ongoing: "blue",
-    },
+    status: "ongoing",
   },
 ];
 
 const UpdateItem = ({ title, description }) => {
   return (
-    <p>
-      <strong>{title}</strong>
-      <br />
-      {description}
-    </p>
+    <div className="content">
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </div>
   );
 };
 
 const Milestone = ({ milestone }) => {
-  // console.log("milestone:", milestone);
+  const classes = `tab ${milestone.status}`;
   return (
-    <li className="timeline-event">
-      <label className="timeline-event-icon"></label>
-      <div className="timeline-event-copy">
-        <p className="timeline-event-thumbnail">{milestone.startDate}</p>
-        <h3>{milestone.title}</h3>
-        <h4>{milestone.version}</h4>
-        {Object.keys(milestone.updates).map((title) => (
-          <UpdateItem
-            title={title}
-            description={milestone.updates[title].description}
-          />
-        ))}
-      </div>
-    </li>
+    <div className={classes}>
+      <input type="radio" name="acc" id={milestone.version} />
+      <label htmlFor={milestone.version}>
+        <h2>{milestone.version}</h2>
+        <h3>
+          {milestone.title} ({milestone.startDate})
+        </h3>
+      </label>
+      {Object.keys(milestone.updates).map((title, t) => (
+        <UpdateItem
+          title={title}
+          description={milestone.updates[title].description}
+          key={t}
+        />
+      ))}
+    </div>
   );
 };
 
 const Roadmap = ({ releases }) => {
   return (
-    <ul className="timeline">
-      {Object.keys(releases).map((key) => (
-        <Milestone milestone={releases[key]} />
+    <div className="container">
+      <h1>Roadmap</h1>
+      {Object.keys(releases).map((release, r) => (
+        <Milestone milestone={releases[release]} key={r} />
       ))}
-    </ul>
+    </div>
   );
 };
 
 // Get Version History and display in table.
 export function RoadmapV1() {
   return (
-    <>
-      <Roadmap releases={releases} />
-    </>
+    <div className="roadmap-container">
+      <Roadmap key="roadmap" releases={releases} />
+    </div>
   );
 }
