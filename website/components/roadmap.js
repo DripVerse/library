@@ -1,5 +1,6 @@
 import React from "react";
 import "/css/components/roadmap.css";
+import Tilt from "react-vanilla-tilt";
 
 const releases = [
   {
@@ -88,8 +89,8 @@ const releases = [
     title: "Pre-Aplha Mainnet",
     version: "0.5.0",
     updates: {
-      "Mainnet Pre-Alpha Release: DripVerse Platform": {
-        description: "",
+      "DripVerse Platform": {
+        description: "Mainnet Pre-Alpha Release <br />BUIDL Dashboard",
         link: "",
       },
       "BUIDL Dashboard": {
@@ -140,10 +141,21 @@ const releases = [
 
 const UpdateItem = ({ title, description }) => {
   return (
-    <div className="content">
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </div>
+    <Tilt
+      options={{ max: 25, speed: 400, glare: false }}
+      style={{
+        backgroundColor: "none",
+      }}
+    >
+      <div className="card">
+        <div className="content">
+          <h2></h2>
+          <h3>{title}</h3>
+          <p>{description}</p>
+          {/* <a href="#">Readmore</a>  */}
+        </div>
+      </div>
+    </Tilt>
   );
 };
 
@@ -151,20 +163,22 @@ const Milestone = ({ milestone }) => {
   const classes = `tab ${milestone.status}`;
   return (
     <div className={classes}>
-      <input type="radio" name="acc" id={milestone.version} />
+      <input type="radio" name="version" id={milestone.version} />
       <label htmlFor={milestone.version}>
         <h2>{milestone.version}</h2>
         <h3>
           {milestone.title} ({milestone.startDate})
         </h3>
       </label>
-      {Object.keys(milestone.updates).map((title, t) => (
-        <UpdateItem
-          title={title}
-          description={milestone.updates[title].description}
-          key={t}
-        />
-      ))}
+      <div className="content-container">
+        {Object.keys(milestone.updates).map((title, t) => (
+          <UpdateItem
+            title={title}
+            description={milestone.updates[title].description}
+            key={t}
+          />
+        ))}
+      </div>
     </div>
   );
 };
