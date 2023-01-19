@@ -90,36 +90,13 @@ const releases = [
     version: "0.5.0",
     updates: {
       "DripVerse Platform": {
-        description: "Mainnet Pre-Alpha Release <br />BUIDL Dashboard",
-        link: "",
-      },
-      "BUIDL Dashboard": {
         description:
-          "A consolidated dashboard to view all functionalities in one place. As we add more features to DripVerse, this will become the cornerstone to how you can integrate, integrate and progress with DripVerse. More features coming soon...",
-        link: "",
-      },
-      "NFT Allowlist": {
-        description:
-          "Allow an exclusive sub-part of your community to access special features using NFTs.",
-        link: "",
-      },
-      "NFT Drops": {
-        description: "Drop NFTs to your loyal community members.",
-        link: "",
-      },
-      "Unstoppable Domains Auth Integrated": {
-        description:
-          "DripVerse Platform can now be accessed using easy to use domain names provided by Unstoppable Domains. If you have Unstoppable Domains account, you can login using that easily.",
+          "Mainnet Pre-Alpha Release. BUIDL Dashboard brings a consolidated dashboard to view all functionalities in one place. As we add more features to DripVerse, this will become the cornerstone to how you can integrate, integrate and progress with DripVerse. Drop NFTs to your loyal community members using Allowlist feature for an exclusive sub-part of your community to access special features using NFTs. Unstoppable Domains Auth Integration to DripVerse Platform can now be accessed using easy to use domain names provided by Unstoppable Domains. If you have Unstoppable Domains account, you can login using that easily.",
         link: "",
       },
       "DripVerse CLI Tool": {
         description:
-          "A Command Line Tool to run make it easy for terminal friendly interfaces. Access your files and nfts using drip command.",
-        link: "",
-      },
-      "NFT Bulk Mint": {
-        description:
-          "Bulk Mint NFTs securely using our command line tool. Mint single file or entire directory with one command.",
+          "A Command Line Tool to run make it easy for terminal friendly interfaces. Access your files and nfts using drip command.Bulk Mint NFTs securely using our command line tool. Mint single file or entire directory with one command.",
         link: "",
       },
     },
