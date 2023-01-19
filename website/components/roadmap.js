@@ -102,7 +102,7 @@ const releases = [
     status: "ongoing",
   },
   {
-    startDate: "Ongoing",
+    startDate: "February 2023",
     title: "Aplha",
     version: "1.0.0",
     updates: {
