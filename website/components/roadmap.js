@@ -11,7 +11,7 @@ const releases = [
       "Smart NFT Litepaper": {
         description:
           "Smart NFT Litepaper describes the first step towards DripVerse Protocol.",
-        link: "",
+        link: "/papers/litepaper",
       },
     },
     status: "past",
@@ -24,7 +24,7 @@ const releases = [
       Vision: {
         description:
           "A complete vision towards Cyberspace and open Metaverse OS is formed.",
-        link: "",
+        link: "/guide/vision/turn",
       },
     },
     status: "past",
@@ -49,8 +49,8 @@ const releases = [
             "Token Gating": "docs link",
           },
         },
-        blog: "",
-        tweet: "",
+        blog: "https://blog.dripverse.org/pre-alpha-release/",
+        link: "https://twitter.com/0xDripVerse/status/1602897679406825472",
       },
       "DripVerse SDK": {
         description:
@@ -65,8 +65,8 @@ const releases = [
             "Token Gating": "docs link",
           },
         },
-        blog: "",
-        link: "",
+        blog: "#",
+        link: "#",
       },
       "Tweet NFTs": {
         description:
@@ -78,11 +78,10 @@ const releases = [
           NFT: ["Custodial Mint"],
         },
         blog: "",
-        tweet: "",
-        link: "",
+        link: "https://twitter.com/0xDripVerse/status/1603695436522573824",
       },
     },
-    status: "past",
+    status: "active",
   },
   {
     startDate: "January 2023",
@@ -100,7 +99,7 @@ const releases = [
         link: "",
       },
     },
-    status: "active",
+    status: "ongoing",
   },
   {
     startDate: "Ongoing",
@@ -112,11 +111,11 @@ const releases = [
         link: "",
       },
     },
-    status: "ongoing",
+    status: "upcoming",
   },
 ];
 
-const UpdateItem = ({ title, description }) => {
+const UpdateItem = ({ title, description, link }) => {
   return (
     <Tilt
       options={{ max: 25, speed: 400, glare: false }}
@@ -129,7 +128,9 @@ const UpdateItem = ({ title, description }) => {
           <h2></h2>
           <h3>{title}</h3>
           <p>{description}</p>
-          {/* <a href="#">Readmore</a>  */}
+          <a href={link} rel="noopener noreferrer" target="_blank">
+            Read More
+          </a>
         </div>
       </div>
     </Tilt>
@@ -152,6 +153,7 @@ const Milestone = ({ milestone }) => {
           <UpdateItem
             title={title}
             description={milestone.updates[title].description}
+            link={milestone.updates[title].link}
             key={t}
           />
         ))}

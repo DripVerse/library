@@ -128,7 +128,7 @@
 }
 
 /* Cards */
-.content-container {
+.roadmap-container .content-container {
   position: relative;
   display: flex;
   /* justify-content: center; */
@@ -138,7 +138,7 @@
   z-index: 1;
 }
 
-.card {
+.roadmap-container .card {
   position: relative;
   width: 280px;
   height: 350px;
@@ -155,7 +155,7 @@
   backdrop-filter: blur(5px);
 }
 
-.content {
+.roadmap-container .content {
   padding: 20px;
   /* text-align: center; */
   overflow: scroll;
@@ -164,12 +164,12 @@
   transition: 0.5s;
 }
 
-/* .card:hover .content {
+/* .roadmap-container .card:hover .content {
   transform: translateY(0px);
   opacity: 1;
 } */
 
-.content h2 {
+.roadmap-container .content h2 {
   position: absolute;
   top: -85px;
   right: 30px;
@@ -178,18 +178,18 @@
   pointer-events: none;
 }
 
-.content h3 {
+.roadmap-container .content h3 {
   font-size: 1.6em;
   color: #fff;
   z-index: 1;
 }
 
-.content p {
+.roadmap-container .content p {
   font-size: 1em;
   color: #fff;
 }
 
-.content a {
+.roadmap-container .content a {
   position: relative;
   display: inline-block;
   padding: 8px 20px;
