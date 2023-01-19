@@ -90,7 +90,7 @@ const releases = [
     updates: {
       "DripVerse Platform": {
         description:
-          "Mainnet Pre-Alpha Release. BUIDL Dashboard brings a consolidated dashboard to view all functionalities in one place. As we add more features to DripVerse, this will become the cornerstone to how you can integrate, integrate and progress with DripVerse. Drop NFTs to your loyal community members using Allowlist feature for an exclusive sub-part of your community to access special features using NFTs. Unstoppable Domains Auth Integration to DripVerse Platform can now be accessed using easy to use domain names provided by Unstoppable Domains. If you have Unstoppable Domains account, you can login using that easily.",
+          "Mainnet Pre-Alpha Release on Polygon. BUIDL Dashboard brings a consolidated dashboard to view all functionalities in one place. As we add more features to DripVerse, this will become the cornerstone to how you can integrate, integrate and progress with DripVerse. Drop NFTs to your loyal community members using Allowlist feature for an exclusive sub-part of your community to access special features using NFTs. Unstoppable Domains Auth Integration to DripVerse Platform can now be accessed using easy to use domain names provided by Unstoppable Domains. If you have Unstoppable Domains account, you can login using that easily.",
         link: "",
       },
       "DripVerse CLI Tool": {
@@ -106,7 +106,7 @@ const releases = [
     title: "Aplha",
     version: "1.0.0",
     updates: {
-      "Listing on Rarible": {
+      "DripVerse Platform": {
         description: "List your NFT on Rarible with one click.",
         link: "",
       },
@@ -143,7 +143,7 @@ const Milestone = ({ milestone }) => {
     <div className={classes}>
       <input type="radio" name="version" id={milestone.version} />
       <label htmlFor={milestone.version}>
-        <h2>{milestone.version}</h2>
+        <h2>v{milestone.version}</h2>
         <h3>
           {milestone.title} ({milestone.startDate})
         </h3>
@@ -165,7 +165,7 @@ const Milestone = ({ milestone }) => {
 const Roadmap = ({ releases }) => {
   return (
     <div className="container">
-      <h1>Roadmap</h1>
+      <h1>Follow our Journey . . .</h1>
       {Object.keys(releases).map((release, r) => (
         <Milestone milestone={releases[release]} key={r} />
       ))}
