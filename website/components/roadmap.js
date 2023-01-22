@@ -10,7 +10,14 @@ const releases = [
     updates: {
       "DripVerse Platform": {
         description: ["List your NFT on Rarible with one click."],
-        link: "",
+        link: "#",
+      },
+      "DripVerse CLI Tool": {
+        description: [
+          "A Command Line Tool to run make it easy for terminal friendly interfaces. Access your files and nfts using drip command.",
+          "Bulk Mint NFTs securely using our command line tool. Mint single file or entire directory with one command.",
+        ],
+        link: "#",
       },
     },
     status: "upcoming",
@@ -27,14 +34,7 @@ const releases = [
           "Drop NFTs to your loyal community members using Allowlist feature for an exclusive sub-part of your community to access special features using NFTs.",
           "Unstoppable Domains Auth Integration to DripVerse Platform can now be accessed using easy to use domain names provided by Unstoppable Domains. If you have Unstoppable Domains account, you can login using that easily.",
         ],
-        link: "",
-      },
-      "DripVerse CLI Tool": {
-        description: [
-          "A Command Line Tool to run make it easy for terminal friendly interfaces. Access your files and nfts using drip command.",
-          "Bulk Mint NFTs securely using our command line tool. Mint single file or entire directory with one command.",
-        ],
-        link: "",
+        link: "#",
       },
     },
     status: "ongoing",
