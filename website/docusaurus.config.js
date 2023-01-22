@@ -119,11 +119,11 @@ module.exports = {
           label: "📦 SDK",
           position: "right",
         },
-        // {
-        //   to: "/release/latest",
-        //   label: "✨ Releases",
-        //   position: "right",
-        // },
+        {
+          to: "/guide/roadmap",
+          label: "🎯 Roadmap",
+          position: "right",
+        },
         {
           href: "https://alpha.dripverse.org",
           label: "🧪 DripVerse Alpha",
