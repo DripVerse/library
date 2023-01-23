@@ -170,7 +170,9 @@ const Milestone = ({ milestone }) => {
   const classes = `tab ${milestone.status}`;
   return (
     <div className={classes}>
-      <input type="radio" name="version" id={milestone.version} />
+      <input type="radio" name="version" id={milestone.version} 
+      defaultChecked={milestone.status === "ongoing" ? true : false}
+      />
       <label htmlFor={milestone.version}>
         <h2>v{milestone.version}</h2>
         <h3>
