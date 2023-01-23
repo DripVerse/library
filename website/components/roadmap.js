@@ -155,9 +155,11 @@ const UpdateItem = ({ title, description, link }) => {
           {Object.keys(description).map((descriptionItem, di) => (
             <p>{description[descriptionItem]}</p>
           ))}
-          <a href={link} rel="noopener noreferrer" target="_blank">
-            Read More
-          </a>
+          {link && (
+            <a href={link} rel="noopener noreferrer" target="_blank">
+              Read More
+            </a>
+          )}
         </div>
       </div>
     </Tilt>
@@ -170,8 +172,11 @@ const Milestone = ({ milestone }) => {
   const classes = `tab ${milestone.status}`;
   return (
     <div className={classes}>
-      <input type="radio" name="version" id={milestone.version} 
-      defaultChecked={milestone.status === "ongoing" ? true : false}
+      <input
+        type="radio"
+        name="version"
+        id={milestone.version}
+        defaultChecked={milestone.status === "ongoing" ? true : false}
       />
       <label htmlFor={milestone.version}>
         <h2>v{milestone.version}</h2>
