@@ -155,7 +155,7 @@ const UpdateItem = ({ title, description, link }) => {
           {Object.keys(description).map((descriptionItem, di) => (
             <p>{description[descriptionItem]}</p>
           ))}
-          {link && (
+          {link && link !== "#" && (
             <a href={link} rel="noopener noreferrer" target="_blank">
               Read More
             </a>
