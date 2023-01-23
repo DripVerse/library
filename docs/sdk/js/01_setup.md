@@ -58,7 +58,7 @@ Or you can update the package version on `package.json` directly:
 ```json
 "dependencies": {
     ...,
-    "dripverse": "1.0.0",
+    "dripverse": "0.5.0",
     ...
 }
 ```

@@ -5,7 +5,7 @@ sidebar_label: Mint
 hide_table_of_contents: false
 ---
 
-# Mint an NFT
+# Mint an NFT (Only available on alpha right now)
 
 This function is used to mint a new NFT token for your image without the hassle of getting any token before.
 
