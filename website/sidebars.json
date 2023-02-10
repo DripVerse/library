@@ -13,6 +13,13 @@
     {
       "💎 NFT": [
         "guide/nft/about",
+        {
+          "🫙 Storage": [
+            "guide/nft/storage/storage",
+            "guide/nft/storage/ipfs",
+            "guide/nft/storage/upload"
+          ]
+        },
         "guide/nft/drop"
       ]
     },
@@ -29,7 +36,6 @@
         }
       ]
     },
-    "guide/versioning",
     "guide/roadmap"
   ],
   "sdk": [

@@ -18,19 +18,19 @@
   "devDependencies": {
     "concurrently": "^7.6.0",
     "replace-in-file": "^6.3.5",
-    "serve": "^14.1.2",
-    "wait-on": "^6.0.1"
+    "serve": "^14.2.0",
+    "wait-on": "^7.0.1"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.2.0",
-    "@docusaurus/plugin-google-analytics": "^2.2.0",
-    "@docusaurus/plugin-ideal-image": "^2.2.0",
-    "@docusaurus/plugin-sitemap": "^2.2.0",
-    "@docusaurus/preset-classic": "^2.2.0",
+    "@docusaurus/core": "^2.3.1",
+    "@docusaurus/plugin-google-analytics": "^2.3.1",
+    "@docusaurus/plugin-ideal-image": "^2.3.1",
+    "@docusaurus/plugin-sitemap": "^2.3.1",
+    "@docusaurus/preset-classic": "^2.3.1",
     "@saucelabs/theme-github-codeblock": "^0.1.1",
-    "ajv": "8.11.2",
+    "ajv": "8.12.0",
     "clsx": "^1.2.1",
-    "gleap": "^8.3.4",
+    "gleap": "^8.6.9",
     "got": "12.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
