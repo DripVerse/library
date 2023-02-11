@@ -4,18 +4,12 @@ title: Versioning
 sidebar_label: 🪜 Versioning
 hide_table_of_contents: false
 ---
-import {Releases} from "@site/components/versioning"
 
 Versioning is used to define various stages in development while also marking the progress. From minor to major changes can be easily followed throughout development process. 
 We use versioning at the following places:
 - API
 - Libraries
 - Web App
-
-# Releases
-Every Minor version tags are releases.
-<br />
-<Releases />
 
 For most parts, we tend to follow [Semantic Versioning](https://semver.org/#semantic-versioning-200).
 

@@ -36,6 +36,8 @@
         }
       ]
     },
+    "guide/versioning",
+    "guide/releases",
     "guide/roadmap"
   ],
   "sdk": [

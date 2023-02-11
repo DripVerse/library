@@ -125,6 +125,11 @@ module.exports = {
           position: "right",
         },
         {
+          to: "/guide/releases",
+          label: "📚 Release Notes",
+          position: "right",
+        },
+        {
           href: "https://alpha.dripverse.org",
           label: "🧪 DripVerse Alpha",
           position: "right",

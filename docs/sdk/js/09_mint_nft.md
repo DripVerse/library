@@ -14,7 +14,7 @@ This is a guide used to mint a new NFT.
 
 ### Upload to IPFS
 
-First, you need to [upload file to IPFS](/docs/guide/nft/storage/2-ipfs-upload.md). You'll get a cid, like: `bafybeifhadklgjjfdxx2nvomyrhjsobhbxeenwc5bheftcetcyqz4yywim`.
+First, you need to [upload file to IPFS](/guide/nft/storage/upload). You'll get a cid, like: `bafybeifhadklgjjfdxx2nvomyrhjsobhbxeenwc5bheftcetcyqz4yywim`.
 
 Make a JSON Object with following details. Your object can be an image or an entire `metadata.json`.
 
