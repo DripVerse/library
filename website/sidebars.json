@@ -60,5 +60,12 @@
   "release": {
     "🧪 Pre-Alpha": ["release/latest"]
   },
-  "cli": ["cli/welcome"]
+  "cli": [
+    "cli/welcome",
+    {
+      ">_ drip": [
+        "cli/drip/introduction"
+      ]
+    }
+  ]
 }

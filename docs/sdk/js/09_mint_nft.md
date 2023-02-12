@@ -66,11 +66,8 @@ We would need a contract client to proceed. A contract client can be generated f
 We will simplify this process using our sdk:
 ```js
 // Get Contract Client
-let contract = await drip.contractClient({
-    contractId: 5
-});
+let contract = await drip.contractClient();
 ```
-If you're not sure, which `contractId` to use, please talk to us for the integration. Currently, this is allocated on need basis based on your project.
 
 ### Wallet Client
 Minting NFT is non-custodial. So, you're owner of your keys at all times. We do not store or have access to your keys at any point.

@@ -3,7 +3,12 @@ id: welcome
 title: "DripVerse CLIs"
 hide_table_of_contents: false
 ---
+import {FeatureList, Column, Feature} from "@site/components/featurelist";
 
-Explore our awesome CLI Tools documentation
+![CLI](/img/guide/cli.png "CLI")
 
-<Contact />
+<FeatureList>
+  <Column title="CLIs">
+    <Feature url="/sdk/js/introduction" title="drip" subtitle="DripVerse CLI" image="cli.png" />
+  </Column>
+</FeatureList>
