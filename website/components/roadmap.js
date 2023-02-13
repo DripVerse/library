@@ -4,12 +4,29 @@ import Tilt from "react-vanilla-tilt";
 
 const releases = [
   {
-    startDate: "February 2023 - Upcoming",
-    title: "Aplha",
-    version: "1.0.0",
+    startDate: "March 2023",
+    title: "Clover",
+    version: "0.8.0",
     updates: {
       "DripVerse Platform": {
-        description: ["List your NFT on Rarible with one click."],
+        description: ["Arcana Support"],
+        link: "#",
+      },
+      "DripVerse SDK": {
+        description: ["Arcana Support"],
+        blog: "#",
+        link: "#",
+      },
+    },
+    status: "upcoming",
+  },
+  {
+    startDate: "February 2023",
+    title: "Aplha",
+    version: "0.7.4",
+    updates: {
+      "DripVerse Platform": {
+        description: ["Project Page"],
         link: "#",
       },
       "DripVerse CLI Tool": {
@@ -19,11 +36,16 @@ const releases = [
         ],
         link: "#",
       },
+      "DripVerse SDK": {
+        description: ["Added Mint function."],
+        blog: "#",
+        link: "#",
+      },
     },
-    status: "upcoming",
+    status: "ongoing",
   },
   {
-    startDate: "January 2023 - Ongoing",
+    startDate: "January 2023",
     title: "Pre-Aplha Mainnet",
     version: "0.5.0",
     updates: {
@@ -37,7 +59,7 @@ const releases = [
         link: "#",
       },
     },
-    status: "ongoing",
+    status: "active",
   },
   {
     startDate: "December 2022",
@@ -94,7 +116,7 @@ const releases = [
         link: "https://twitter.com/0xDripVerse/status/1603695436522573824",
       },
     },
-    status: "active",
+    status: "past",
   },
   {
     startDate: "August 2022",

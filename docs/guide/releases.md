@@ -9,6 +9,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
+
   <TabItem value="sdk" label="SDK" default>
     <details>
       <summary>0.7.4</summary>
@@ -62,7 +63,7 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="cli" label="CLI">
     <details>
-      <summary>0.1.0</summary>
+      <summary>0.1.0 [Upcoming]</summary>
       <p>
         <h3>🌟 Added</h3>
         <ul>
@@ -72,4 +73,5 @@ import TabItem from '@theme/TabItem';
       </p>
     </details>
   </TabItem>
+
 </Tabs>

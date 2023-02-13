@@ -57,14 +57,13 @@
       ]
     }
   ],
-  "release": {
-    "🧪 Pre-Alpha": ["release/latest"]
-  },
   "cli": [
     "cli/welcome",
     {
       ">_ drip": [
-        "cli/drip/introduction"
+        "cli/drip/introduction",
+        "cli/drip/install",
+        "cli/drip/mint"
       ]
     }
   ]

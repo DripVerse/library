@@ -64,3 +64,11 @@ Needs node v18 or above.
 
 1. `cd website`
 2. `npm i --legacy-peer-deps`
+
+#### Update Types:
+🌟 Added
+⑃ Changed
+📝 Deprecated
+🗑️ Removed
+🛠️ Fixed
+🛡️ Security
