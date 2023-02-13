@@ -69,6 +69,8 @@ import TabItem from '@theme/TabItem';
         <ul>
           <li>[Feature] NFT Mint for single asset.</li>
           <li>[Feature] NFT Mint for entire directory.</li>
+          <li>[Feature] Upload single asset to IPFS.</li>
+          <li>[Feature] Upload all assets in a directory to IPFS.</li>
         </ul>
       </p>
     </details>

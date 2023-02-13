@@ -40,6 +40,8 @@ Options:
 Commands:
   info                          Info about this tool.
   init                          Initialise <drip>
+  update                        Update drip to latest available stable version.
+  upload [options] <path>       Upload File to IPFS
   status <cid>                  Check Status of IPFS file or directory.
   mint [options] <path> <name>  Mint NFT
   help [command]                display help for command
@@ -56,8 +58,8 @@ vim ~/.drip
 ```
 
 
-## Upgrade drip
+## Update drip to latest version
 ```sh
-npm update -g dripverse-cli
+drip update
 ```
 

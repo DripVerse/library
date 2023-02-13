@@ -17,6 +17,14 @@ const releases = [
         blog: "#",
         link: "#",
       },
+      "DripVerse CLI Tool": {
+        description: [
+          "A Command Line Tool to run make it easy for terminal friendly interfaces. Access your files and nfts using drip command.",
+          "Bulk Mint NFTs securely using our command line tool. Mint single file or entire directory with one command.",
+          "Upload files to IPFS easily. Uses NFT.Storage",
+        ],
+        link: "#",
+      },
     },
     status: "upcoming",
   },
@@ -27,13 +35,6 @@ const releases = [
     updates: {
       "DripVerse Platform": {
         description: ["Project Page"],
-        link: "#",
-      },
-      "DripVerse CLI Tool": {
-        description: [
-          "A Command Line Tool to run make it easy for terminal friendly interfaces. Access your files and nfts using drip command.",
-          "Bulk Mint NFTs securely using our command line tool. Mint single file or entire directory with one command.",
-        ],
         link: "#",
       },
       "DripVerse SDK": {
