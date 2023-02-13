@@ -41,7 +41,7 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="platform" label="Platform">
     <details>
-      <summary>0.5.0</summary>
+      <summary>0.5.1</summary>
       <p>
         <h3>🌟 Added</h3>
         <ul>
