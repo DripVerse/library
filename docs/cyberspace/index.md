@@ -8,6 +8,31 @@ import {FeatureList, Column, Feature} from "@site/components/featurelist"
 
 Welcome to the Cyberspace Docs!
 
+```sh
+                ┌──────────────┬──────────────────┬───────────────┐
+                │              │                  │               │
+                │     User     │    Application   │     System    │
+[User Mod]      │   Programs   │     Programs     │    Programs   │
+                │              │                  │               │
+                ├──────────────┴──────────────────┴───────────────┤
+                │                    Libraries                    │
+                ├─────────────┬──────────┬───────────┬────────────┤
+                │ Interpreter/│   Text   │           │  Database  │
+                │  Compiler   │  Editor  │ Assembler │   System   │
+                ├─────────────┴──────────┴───────────┴────────────┤
+[Kernel Mod]    │                Operating System                 │
+                ├──────────────┬──────────────────┬───────────────┤
+                │              │                  │               │
+[Hardware]      │    Storage   │     Process      │   Peripheral  │
+                │     Memory   │       CPU        │    Devices    │
+                │              │                  │               │
+                ├──────────────┴──────────────────┴───────────────┤
+                │                                                 │
+[Network]       │             Decentralised Networks              │
+                │                                                 │
+                └─────────────────────────────────────────────────┘
+```
+
 <h1 className="text-center big-title" >The Cyberspace Ecosystem</h1>
 
 <FeatureList>
