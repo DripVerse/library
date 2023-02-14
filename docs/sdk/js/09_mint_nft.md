@@ -29,6 +29,7 @@ let cid = {
   cid: "bafybeifhadklgjjfdxx2nvomyrhjsobhbxeenwc5bheftcetcyqz4yywim",
 };
 ```
+
 ```mdx-code-block
   </TabItem>
 
@@ -42,12 +43,14 @@ let cid = {
   cid: "bafyreieha6jqtnu4f4njyaovknxyyxeurkcsopcryrggxkt7hcbi5zmwzi",
 };
 ```
+
 ```mdx-code-block
   </TabItem>
 </Tabs>
 ```
 
 We would also need the following, to define a name and description to your NFT.
+
 ```js
 let mintData = {
   name: "NFT Name",
@@ -61,23 +64,28 @@ Optional:
 - `networkId` (_default 1_)
 
 ### Contract Client
+
 We would need a contract client to proceed. A contract client can be generated from a smart contract deployed on the network and compiled to extract it's abi and bytecode. You can learn about compiling solidity smart contract from [solc docs](https://docs.soliditylang.org/en/v0.8.17/using-the-compiler.html).
 
 We will simplify this process using our sdk:
+
 ```js
 // Get Contract Client
 let contract = await drip.contractClient();
 ```
 
 ### Wallet Client
+
 Minting NFT is non-custodial. So, you're owner of your keys at all times. We do not store or have access to your keys at any point.
 There are several ways to get wallet client.
+
 ```mdx-code-block
 <Tabs>
   <TabItem value="privatekey" label="Private Key" default>
 ```
+
 ```js
-import { ethers } from 'dripverse';
+import { ethers } from "dripverse";
 // If you've access to your private keys, then use this method
 
 // You can save your private on your system or some secret manager of your choice.
@@ -85,49 +93,64 @@ import { ethers } from 'dripverse';
 let wallet = await new ethers.Wallet(PRIVATE_KEY);
 
 // You can use any rpc node provider service. We are using Alchemy in this example. You can use Infura or QuickNode as well.
-let httpProvider = new ethers.providers.AlchemyProvider('maticmum', ALCHEMY_HTTP_KEY);
+let httpProvider = new ethers.providers.AlchemyProvider(
+  "maticmum",
+  ALCHEMY_HTTP_KEY
+);
 
 // Finally, use node endpoint to create a wallet client instance.
 let walletClient = await wallet.connect(httpProvider);
 ```
+
 ```mdx-code-block
   </TabItem>
   <TabItem value="metamask" label="Metamask">
 ```
+
 ```js
-import { ethers } from 'dripverse';
+import { ethers } from "dripverse";
 // If you're using Metamask Wallet, then use this.
 // Note: This might work for other browser based wallets as well. But we've not tested them all. If there's a wallet that you'd like it work with and currently doesn't, please reach out to us and we can work with you to support your wallet.
 const ethersProvider = new ethers.providers.Web3Provider(
-    window.ethereum,
-    'any'
+  window.ethereum,
+  "any"
 );
 
 // Finally, create your wallet client instance.
 const walletClient = ethersProvider.getSigner();
 ```
+
 ```mdx-code-block
   </TabItem>
   <TabItem value="arcana" label="Arcana">
 ```
+
+:::info
+
+Follow the official Arcana [docs](https://docs.arcana.network/howto/arcana_wallet/wallet_sign.html) to set up Arcana Auth and obtain the wallet provider.
+
+:::
+
 ```js
-import { ethers } from 'dripverse';
-// Arcana Setup First.
+import { ethers } from "dripverse";
+// Arcana auth setup First.
+// const getArcanaProvider = () => {
+//  ...
+//}
 const arcanaProvider = getArcanaProvider();
-const ethersProvider = new ethers.providers.Web3Provider(
-    arcanaProvider,
-    'any'
-);
+const ethersProvider = new ethers.providers.Web3Provider(arcanaProvider, "any");
 
 // Finally, create your wallet client instance.
 const walletClient = ethersProvider.getSigner();
 ```
+
 ```mdx-code-block
   </TabItem>
 </Tabs>
 ```
 
 Now, create a Contract Signer instance. We will use this going forward to interact with the smart contract functions.
+
 ```js
 let contractSigner = contract.connect(walletClient);
 ```
