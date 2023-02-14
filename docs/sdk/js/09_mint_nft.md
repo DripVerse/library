@@ -112,8 +112,7 @@ const walletClient = ethersProvider.getSigner();
 ```
 ```js
 import { ethers } from 'dripverse';
-// If you're using Metamask Wallet, then use this.
-// Note: This might work for other browser based wallets as well. But we've not tested them all. If there's a wallet that you'd like it work with and currently doesn't, please reach out to us and we can work with you to support your wallet.
+// Arcana Setup First.
 const arcanaProvider = getArcanaProvider();
 const ethersProvider = new ethers.providers.Web3Provider(
     arcanaProvider,

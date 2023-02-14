@@ -58,7 +58,7 @@
     }
   ],
   "cli": [
-    "cli/welcome",
+    "cli/overview",
     {
       ">_ drip": [
         "cli/drip/introduction",

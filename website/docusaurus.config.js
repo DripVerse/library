@@ -110,7 +110,7 @@ module.exports = {
           position: "left",
         },
         // {
-        //   to: "/cli/welcome",
+        //   to: "/cli/overview",
         //   label: ">_ CLI",
         //   position: "right",
         // },
