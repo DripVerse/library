@@ -20,17 +20,23 @@ We will follow the following steps:
 _Let's start writing some code._
 
 ### Install
-`npm install nft.storage --save`
+```sh
+npm install nft.storage --save
+```
 
 ### Setup
 
 #### Import
-`import { NFTStorage } from 'nft.storage';`
+```js
+import { NFTStorage } from 'nft.storage';
+```
 
 #### Initialise
 You can get your IPFS_TOKEN from the NFT.Storage dashboard.
 
-`var storage = await new NFTStorage({ token: IPFS_TOKEN });`
+```js
+var storage = await new NFTStorage({ token: IPFS_TOKEN });
+```
 
 ### Upload File
 ```mdx-code-block
