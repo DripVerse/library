@@ -63,7 +63,8 @@
       ">_ drip": [
         "cli/drip/introduction",
         "cli/drip/install",
-        "cli/drip/mint"
+        "cli/drip/mint",
+        "cli/drip/ipfs"
       ]
     }
   ]
