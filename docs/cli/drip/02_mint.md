@@ -5,10 +5,6 @@ sidebar_label: Mint
 hide_table_of_contents: false
 ---
 
-:::info
-Currently works only on Polygon Testnet.
-:::
-
 #### Pre-requisites:
 1. EVM Account
    1. Address

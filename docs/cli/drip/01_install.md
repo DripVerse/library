@@ -5,10 +5,6 @@ sidebar_label: Install
 hide_table_of_contents: false
 ---
 
-:::info
-Currently works only on Polygon Testnet.
-:::
-
 ## Install
 ```sh
 npm i -g dripverse-cli
@@ -46,17 +42,6 @@ Commands:
   mint [options] <path> <name>  Mint NFT
   help [command]                display help for command
 ```
-
-## Initialise
-```sh
-drip init
-```
-
-### Update values on config file on your favorite editor:
-```sh
-vim ~/.drip
-```
-
 
 ## Update drip to latest version
 ```sh

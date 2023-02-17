@@ -110,7 +110,7 @@ module.exports = {
           position: "left",
         },
         // {
-        //   to: "/cli/overview",
+        //   to: "/cli/drip/introduction",
         //   label: ">_ CLI",
         //   position: "right",
         // },

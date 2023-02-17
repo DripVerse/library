@@ -63,7 +63,7 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="cli" label="CLI">
     <details>
-      <summary>0.1.0 [Upcoming]</summary>
+      <summary>0.1.1</summary>
       <p>
         <h3>🌟 Added</h3>
         <ul>
@@ -71,6 +71,7 @@ import TabItem from '@theme/TabItem';
           <li>[Feature] NFT Mint for entire directory.</li>
           <li>[Feature] Upload single asset to IPFS.</li>
           <li>[Feature] Upload all assets in a directory to IPFS.</li>
+          <li>[Feature] Supports Polygon Testnet and Mainnet via Alchemy.</li>
         </ul>
       </p>
     </details>
