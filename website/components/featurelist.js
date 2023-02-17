@@ -97,6 +97,7 @@ export function ReleaseHeader() {
   );
 }
 
+// Common video component
 export const VideoCard = ({ url }) => {
   return <video className="video__card" loop autoPlay muted src={url} />;
 };

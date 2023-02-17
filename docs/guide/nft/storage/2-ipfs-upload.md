@@ -62,7 +62,12 @@ console.log('cid:', cid);
   <TabItem value="reactjs" label="ReactJs">
 ```
 ```js
-// Coming Soon
+// Create a blob of the file.
+let blob = new Blob([<YOUR-IMAGE-FILE>]);
+
+// Upload to IPFS and get the cid
+const cid = await storage.storeBlob(blob);
+console.log('cid:', cid);
 
 ```
 ```mdx-code-block
