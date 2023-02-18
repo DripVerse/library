@@ -109,11 +109,11 @@ module.exports = {
           label: "📖 Guide",
           position: "left",
         },
-        // {
-        //   to: "/cli/drip/introduction",
-        //   label: ">_ CLI",
-        //   position: "right",
-        // },
+        {
+          to: "/cli/drip/introduction",
+          label: ">_ CLI",
+          position: "right",
+        },
         {
           to: "/sdk/js/introduction",
           label: "📦 SDK",

@@ -20,14 +20,14 @@ Response:
 
    ╭ Drip CLI [alpha] ╮
    │                  │
-   │   v0.1.0         │
+   │   v0.1.2         │
    │                  │
    ╰──────────────────╯
 
 [object Promise]
 Usage: drip [options] [command]
 
-CLI to DripVerse Protocol. v0.1.0
+CLI to DripVerse Protocol. v0.1.2
 
 Options:
   -V, --version                 output the version number

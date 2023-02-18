@@ -63,7 +63,7 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="cli" label="CLI">
     <details>
-      <summary>0.1.1</summary>
+      <summary>0.1.2</summary>
       <p>
         <h3>🌟 Added</h3>
         <ul>
