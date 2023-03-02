@@ -31,7 +31,8 @@
           "🗝️ Gatekeeper": [
             "guide/utility/gatekeeper/welcome",
             "guide/utility/gatekeeper/setup",
-            "guide/utility/gatekeeper/sdk"
+            "guide/utility/gatekeeper/sdk",
+            "guide/utility/gatekeeper/discord"
           ]
         }
       ]
