@@ -12,10 +12,11 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="sdk" label="SDK" default>
     <details>
-      <summary>0.7.4</summary>
+      <summary>0.7.32</summary>
       <p>
         <h3>🌟 Added</h3>
         <ul>
+          <li>[Feature] Better in-built Docs support. Moved to TypeScript.</li>
           <li>[Feature] Polygon Mainnet Support.</li>
           <li>[Feature] Mint NFT.</li>
           <li>[Feature] Project based NFT Explore.</li>
