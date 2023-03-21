@@ -33,6 +33,7 @@ There are several projects offering IPFS pinning service:
 - [Infura](https://www.infura.io/product/ipfs)
 - [IPFS Scan](https://ipfs-scan.io/)
 - [4EVERLAND](https://www.4everland.org/)
+- [Spheron Network](https://spheron.network/)
 
 We are going to use one of the most popular services [nft.storage](https://nft.storage/docs/).
 
@@ -41,4 +42,3 @@ NFT.Storage is a long-term storage service designed for off-chain NFT data (like
 NFT.Storage stores many copies of uploaded data on the public IPFS network in two primary ways: in dedicated IPFS servers managed by NFT.Storage, and decentralized on Filecoin. Since IPFS is a standard used by many different storage services, it's easy to redundantly store data uploaded to NFT.Storage on any other IPFS-compatible storage solution from pinning services, to your local IPFS node, to other storage networks like Arweave or Storj. And as time goes on, NFT.Storage will increasingly decentralize itself as a public good!
 
 ![NFT Storage](/img/guide/nftstorage.png "NFT Storage")
-

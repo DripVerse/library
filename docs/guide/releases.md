@@ -64,6 +64,21 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="cli" label="CLI">
     <details>
+      <summary>0.2.1</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] Upload single asset to IPFS using Spheron Network.</li>
+        </ul>
+      </p>
+      <p>
+        <h3>⑃ Changed</h3>
+        <ul>
+          <li>Error Handling on missing config.</li>
+        </ul>
+      </p>
+    </details>
+    <details>
       <summary>0.1.2</summary>
       <p>
         <h3>🌟 Added</h3>
