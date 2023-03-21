@@ -4,29 +4,51 @@ import Tilt from "react-vanilla-tilt";
 
 const releases = [
   {
+    startDate: "April 2023",
+    title: "Purple",
+    version: "0.9.0",
+    updates: {
+      "DripVerse Platform": {
+        description: ["NFT Pass"],
+        link: "#",
+      },
+      "DripVerse SDK": {
+        description: ["Wallet Support"],
+        blog: "#",
+        link: "#",
+      },
+    },
+    status: "upcoming",
+  },
+  {
     startDate: "March 2023",
     title: "Clover",
     version: "0.8.0",
     updates: {
       "DripVerse Platform": {
-        description: ["Arcana Support"],
-        link: "#",
+        description: [
+          "Arcana Support",
+          "Improved Utility Page",
+          "Token Gated Discord Gatekeeper Utility",
+        ],
+        link: "https://blog.dripverse.org/dripverse-protocol-partners-with-arcana/",
       },
       "DripVerse SDK": {
-        description: ["Arcana Support"],
+        description: ["Migrated to TypeScript"],
         blog: "#",
-        link: "#",
+        link: "https://twitter.com/0xDripVerse/status/1636063025554919425",
       },
       "DripVerse CLI Tool": {
         description: [
           "A Command Line Tool to run make it easy for terminal friendly interfaces. Access your files and nfts using drip command.",
           "Bulk Mint NFTs securely using our command line tool. Mint single file or entire directory with one command.",
           "Upload files to IPFS easily. Uses NFT.Storage",
+          "Spheron Network Support",
         ],
         link: "#",
       },
     },
-    status: "upcoming",
+    status: "ongoing",
   },
   {
     startDate: "February 2023",
@@ -43,7 +65,7 @@ const releases = [
         link: "#",
       },
     },
-    status: "ongoing",
+    status: "active",
   },
   {
     startDate: "January 2023",
@@ -60,7 +82,7 @@ const releases = [
         link: "#",
       },
     },
-    status: "active",
+    status: "past",
   },
   {
     startDate: "December 2022",
