@@ -51,8 +51,6 @@
         "sdk/js/ethersjs",
         "sdk/js/status",
         "sdk/js/verify",
-        "sdk/js/networks",
-        "sdk/js/contracts",
         "sdk/js/mint",
         "sdk/js/nft"
       ]
