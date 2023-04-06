@@ -26,10 +26,10 @@ var drip = new DripSDK('PROJECT_API_KEY');
 ```
 [Read more about Utility Setup on DripVerse Platform.](../../guide/utility/gatekeeper/setup.md)
 
-If you want to work on `local` or `alpha`, please add the following:
+<!-- If you want to work on `local` or `alpha`, please add the following:
 ```js
 var drip = new DripSDK('2bd97fd02911eb060b259167676800b2f15e3336', 'alpha');
-```
+``` -->
 :::info
-Note: This is an example of the key. Please use your generated project key only. Learn more about [Generating Project Key](../../guide/utility/gatekeeper/setup.md).
+Note: Please use your generated project key only and do NOT share your project key with anyone. Learn more about [Generating Project Key](../../guide/utility/gatekeeper/setup.md).
 :::

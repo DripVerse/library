@@ -54,14 +54,14 @@ We would also need the following, to define a name and description to your NFT.
 ```js
 let mintData = {
   name: "NFT Name",
-  description: "NFT Description",
+  description: "NFT Description"
 };
 ```
 
 Optional:
 
 - `description`
-- `networkId` (_default 1_)
+- `networkId` (_default 3: Polygon Mainnet_)
 
 ### Contract Client
 
@@ -72,6 +72,15 @@ We will simplify this process using our sdk:
 ```js
 // Get Contract Client
 let contract = await drip.contractClient();
+```
+This will load the default contract client.
+
+In case, you've a custom contract deployed, you can call it instead:
+```js
+// Get Custom Contract Client
+let contract = await drip.contractClient({
+  contractId: 5
+});
 ```
 
 ### Wallet Client
