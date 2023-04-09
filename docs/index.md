@@ -3,7 +3,7 @@ id: welcome
 title: Welcome to DripVerse Library
 hide_table_of_contents: true
 ---
-import {Contact} from "@site/components/featurelist"
+import {FeatureList, Column, Feature, Contact} from "@site/components/featurelist"
 
 Welcome! This is the starting point for all the documentation in DripVerse.
 
@@ -38,6 +38,18 @@ Welcome! This is the starting point for all the documentation in DripVerse.
   </div>
 </div>
 
-<br/>
+<hr class="subsection" />
+
+<h1 class="text-center big-title" > Discover Library by Topic </h1>
+
+<FeatureList>
+  <Column title="Developer Documentation" size="6">
+    <Feature url="/guide/quickstart" title="Quickstart" subtitle="Integrate your first Utility" image="quickstart.jpg" />
+  </Column>
+  <Column title="Developer Tools" size="6">
+    <Feature url="/sdk/js/introduction" title="JavaScript SDK" subtitle="Build your JavaScript Project" image="smartcontract-js.png" />
+    <Feature url="/cli/drip/introduction" title="Drip CLI" subtitle="Use DripVerse Protocol from your Terminal" image="cli.png" />
+  </Column>
+</FeatureList>
 
 <Contact />

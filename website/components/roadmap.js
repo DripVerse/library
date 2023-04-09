@@ -4,21 +4,53 @@ import Tilt from "react-vanilla-tilt";
 
 const releases = [
   {
-    startDate: "April 2023",
+    startDate: "May 2023",
     title: "Purple",
-    version: "0.9.0",
+    version: "0.10.0",
     updates: {
       "DripVerse Platform": {
-        description: ["NFT Pass"],
+        description: [
+          "ERC1155",
+          "Auction",
+          "Utility Page",
+          "Enhanced Project Page",
+          "Collection Support",
+        ],
         link: "#",
       },
       "DripVerse SDK": {
-        description: ["Wallet Support"],
+        description: ["Lighthouse Support"],
         blog: "#",
         link: "#",
       },
     },
     status: "upcoming",
+  },
+  {
+    startDate: "April 2023",
+    title: "Purple",
+    version: "0.9.0",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "NFT Pass 🎟️",
+          "📱 Mobile Login with Metamask",
+          "Mainnet and Testnet both availability 🤝",
+        ],
+        link: "#",
+      },
+      "DripVerse SDK": {
+        description: [
+          "Wallet Support",
+          "ChainId Support",
+          "ERC1155 Batch Minting",
+          "Auction Support 🔨",
+        ],
+        blog: "#",
+        link: "#",
+      },
+    },
+    status: "ongoing",
   },
   {
     startDate: "March 2023",
@@ -48,7 +80,7 @@ const releases = [
         link: "#",
       },
     },
-    status: "ongoing",
+    status: "active",
   },
   {
     startDate: "February 2023",

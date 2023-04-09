@@ -43,6 +43,27 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="platform" label="Platform">
     <details>
+      <summary>0.6.0</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] NFT Pass Utility Added.</li>
+        </ul>
+      </p>
+      <p>
+        <h3>🛠️ Fixed</h3>
+        <ul>
+          <li>Mobile Metamask Login now working.</li>
+        </ul>
+      </p>
+      <p>
+        <h3>⑃ Changed</h3>
+        <ul>
+          <li>Now, both Testnet and Mainnet Networks will be accessible on DripVerse Platform.</li>
+        </ul>
+      </p>
+    </details>
+    <details>
       <summary>0.5.1</summary>
       <p>
         <h3>🌟 Added</h3>
