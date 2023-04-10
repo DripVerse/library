@@ -18,6 +18,6 @@ or
 const { ethers } = require('dripverse');
 ```
 
-:::info
+:::info EthersJs
 Note: To learn more usage of EthersJs, please follow the [guide](https://docs.ethers.org/v5/) here. You can try out interesting functions on the [ethers playground](https://playground.ethers.org/).
 :::

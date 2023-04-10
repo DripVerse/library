@@ -52,7 +52,8 @@
         "sdk/js/status",
         "sdk/js/verify",
         "sdk/js/mint",
-        "sdk/js/nft"
+        "sdk/js/nft",
+        "sdk/js/transfer"
       ]
     }
   ],
