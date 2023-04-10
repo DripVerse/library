@@ -62,6 +62,7 @@ Optional:
 
 - `description`
 - `networkId` (_default 3: Polygon Mainnet_)
+- `contractId` (_default 6: Polygon Mainnet ERC721_)
 
 ### Contract Client
 
@@ -69,19 +70,70 @@ We would need a contract client to proceed. A contract client can be generated f
 
 We will simplify this process using our sdk:
 
+```mdx-code-block
+<Tabs>
+  <TabItem value="default" label="Default" default>
+```
+
 ```js
 // Get Contract Client
 let contract = await drip.contractClient();
 ```
-This will load the default contract client.
+
+<!-- ```mdx-code-block
+  </TabItem>
+
+  <TabItem value="standard" label="by Standard">
+```
+
+In case, you have a specific standard in mind, you can call this instead:
+```js
+// Get Custom Contract Client by Standard
+let contract = await drip.contractClient({
+  contractStandard: 'ERC721'
+});
+```
+Currently, supported Standards:
+- `ERC721`
+- `ERC1155` -->
+
+<!-- ```mdx-code-block
+  </TabItem>
+
+  <TabItem value="chain" label="by Chain ID">
+```
+
+In case, you have a specific standard in mind, you can call this instead:
+```js
+// Get Custom Contract Client by Standard
+let contract = await drip.contractClient({
+  chainId: '80001'
+});
+```
+Currently, supported Chain IDs:
+- `80001` : Polygon Mumbai Testnet
+- `137` : Polygon Mainnet -->
+
+```mdx-code-block
+  </TabItem>
+
+  <TabItem value="id" label="by ID">
+```
 
 In case, you've a custom contract deployed, you can call it instead:
 ```js
 // Get Custom Contract Client
 let contract = await drip.contractClient({
-  contractId: 5
+  contractId: 6
 });
 ```
+
+```mdx-code-block
+  </TabItem>
+</Tabs>
+```
+
+Now, you have the contract client loaded.
 
 ### Wallet Client
 
@@ -91,6 +143,20 @@ There are several ways to get wallet client.
 ```mdx-code-block
 <Tabs>
   <TabItem value="privatekey" label="Private Key" default>
+```
+
+```js
+// Get your walletClient:
+let walletClient = await drip.walletClient(PRIVATE_KEY);
+```
+Optional:
+- `networkId`:
+  - `1` : Polygon Mumbai Testnet
+  - `3` : Polygon Mainnet (Default)
+
+```mdx-code-block
+  </TabItem>
+  <TabItem value="alchemy" label="Alchemy">
 ```
 
 ```js
@@ -166,7 +232,7 @@ let contractSigner = contract.connect(walletClient);
 
 ### Mint
 
-Now to mint you new NFT, simply call `drip.mint`.
+Now to mint you new NFT, simply call `drip.mint`:
 
 ```js
 let mintResponse = await drip.mint(mintData, cid, contractSigner);

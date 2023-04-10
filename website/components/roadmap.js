@@ -42,8 +42,8 @@ const releases = [
       "DripVerse SDK": {
         description: [
           "Wallet Support",
-          "ChainId Support",
-          "ERC1155 Batch Minting",
+          "ERC1155 Bulk Minting",
+          "Network ID Support",
           "Auction Support 🔨",
         ],
         blog: "#",
