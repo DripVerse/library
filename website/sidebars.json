@@ -33,6 +33,10 @@
             "guide/utility/gatekeeper/setup",
             "guide/utility/gatekeeper/sdk",
             "guide/utility/gatekeeper/discord"
+          ],
+          "🎫 Pass": [
+            "guide/utility/pass/about",
+            "guide/utility/pass/setup"
           ]
         }
       ]
