@@ -21,7 +21,7 @@ If you're looking for funds for Polygon Testnet, try the [Polygon Mumbai Faucet]
 
 ### Mint
 ```sh
-drip mint <file>
+drip mint <file> "NFT Name"
 ```
 
 ### Bulk Mint

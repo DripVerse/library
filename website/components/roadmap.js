@@ -41,6 +41,7 @@ const releases = [
       },
       "DripVerse SDK": {
         description: [
+          "Transfer ERC721 NFT",
           "Wallet Support",
           "ERC1155 Bulk Minting",
           "Network ID Support",
