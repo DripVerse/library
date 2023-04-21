@@ -110,6 +110,11 @@ module.exports = {
           position: "left",
         },
         {
+          to: "/wallet/drip-wallet/introduction",
+          label: "👻 Wallet",
+          position: "right",
+        },
+        {
           to: "/cli/drip/introduction",
           label: ">_ CLI",
           position: "right",
