@@ -63,7 +63,7 @@ Optional:
 - `description`
 - `networkId` (_default 3: Polygon Mainnet_)
 - `contractId` (_default 6: Polygon Mainnet ERC721_)
-
+- `metadata`
 
 :::success Get Contract Signer
 Make sure you've [contractSigner](/sdk/js/init#contract-client) object before proceeding.
