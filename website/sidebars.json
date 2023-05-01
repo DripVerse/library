@@ -69,7 +69,8 @@
         "cli/drip/install",
         "cli/drip/config",
         "cli/drip/mint",
-        "cli/drip/ipfs"
+        "cli/drip/ipfs",
+        "cli/drip/deploy"
       ]
     }
   ]
