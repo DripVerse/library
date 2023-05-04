@@ -41,6 +41,7 @@ const releases = [
       },
       "DripVerse SDK": {
         description: [
+          "Transfer ERC721 NFT",
           "Wallet Support",
           "ERC1155 Bulk Minting",
           "Network ID Support",
@@ -48,6 +49,18 @@ const releases = [
         ],
         blog: "#",
         link: "#",
+      },
+      "Drip Wallet": {
+        description: [
+          "Create User Account",
+          "Import Account",
+          "Connect Wallet to DApps",
+          "Access NFT",
+          "Access NFT Utilities",
+          "Group NFTs by Contract Name",
+          "Polygon Mumbai Network Availability",
+        ],
+        link: "https://twitter.com/0xDripVerse/status/1648560862519521280",
       },
     },
     status: "ongoing",

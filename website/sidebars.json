@@ -56,7 +56,8 @@
         "sdk/js/status",
         "sdk/js/verify",
         "sdk/js/mint",
-        "sdk/js/nft"
+        "sdk/js/nft",
+        "sdk/js/transfer"
       ]
     }
   ],
@@ -68,7 +69,8 @@
         "cli/drip/install",
         "cli/drip/config",
         "cli/drip/mint",
-        "cli/drip/ipfs"
+        "cli/drip/ipfs",
+        "cli/drip/deploy"
       ]
     }
   ]
