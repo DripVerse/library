@@ -4,27 +4,47 @@ import Tilt from "react-vanilla-tilt";
 
 const releases = [
   {
-    startDate: "May 2023",
-    title: "Purple",
-    version: "0.10.0",
+    startDate: "June 2023",
+    title: "Q2",
+    version: "1.0.0",
     updates: {
       "DripVerse Platform": {
-        description: [
-          "ERC1155",
-          "Auction",
-          "Utility Page",
-          "Enhanced Project Page",
-          "Collection Support",
-        ],
-        link: "#",
-      },
-      "DripVerse SDK": {
-        description: ["Lighthouse Support"],
-        blog: "#",
+        description: ["Auction", "Collection Support"],
         link: "#",
       },
     },
     status: "upcoming",
+  },
+  {
+    startDate: "May 2023",
+    title: "Naruto",
+    version: "0.10.0",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "Google Login",
+          "ERC1155 Support",
+          "Utility Page",
+          "Enhanced Project Page",
+          "Utility Explore Page",
+          "Project Explore Page",
+          "Activities Section on NFT",
+        ],
+        link: "#",
+      },
+      "DripVerse SDK": {
+        description: ["ERC1155"],
+        blog: "#",
+        link: "#",
+      },
+      "DripVerse CLI Tool": {
+        description: [
+          "Deploy Static Single and Multi-page Website to IPFS from CLI",
+        ],
+        link: "#",
+      },
+    },
+    status: "ongoing",
   },
   {
     startDate: "April 2023",
@@ -63,7 +83,7 @@ const releases = [
         link: "https://twitter.com/0xDripVerse/status/1648560862519521280",
       },
     },
-    status: "ongoing",
+    status: "active",
   },
   {
     startDate: "March 2023",

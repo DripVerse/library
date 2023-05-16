@@ -12,6 +12,19 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="sdk" label="SDK" default>
     <details>
+      <summary>0.8.14</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] ERC1155 Mint and Transfer.</li>
+        </ul>
+        <h3>🛠️ Fixed</h3>
+        <ul>
+          <li>[Feature] Mint and Transfer on Mainnet had tokenId generating bug.</li>
+        </ul>
+      </p>
+    </details>
+    <details>
       <summary>0.7.32</summary>
       <p>
         <h3>🌟 Added</h3>
@@ -42,6 +55,33 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 
   <TabItem value="platform" label="Platform">
+    <details>
+      <summary>0.7.0</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] ERC1155 Support.</li>
+          <li>Google Login using Arcana</li>
+          <li>Utility Page</li>
+          <li>Enhanced Project Page</li>
+          <li>Utility Explore Page</li>
+          <li>Project Explore Page</li>
+          <li>Activities Section on NFT</li>
+        </ul>
+      </p>
+      <p>
+        <h3>🛠️ Fixed</h3>
+        <ul>
+          <li>Mainnet mint and transfer started creating issues after enabling multiple networks across testnet and mainnet.</li>
+        </ul>
+      </p>
+      <p>
+        <h3>⑃ Changed</h3>
+        <ul>
+          <li>Now, DripVerse Platform uses DripVerse SDK as well.</li>
+        </ul>
+      </p>
+    </details>
     <details>
       <summary>0.6.0</summary>
       <p>
@@ -84,6 +124,15 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 
   <TabItem value="cli" label="CLI">
+    <details>
+      <summary>0.2.4</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] Deploy Static single and multi-page website to IPFS.</li>
+        </ul>
+      </p>
+    </details>
     <details>
       <summary>0.2.1</summary>
       <p>
