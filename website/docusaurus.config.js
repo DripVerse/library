@@ -130,8 +130,8 @@ module.exports = {
           position: "right",
         },
         {
-          href: "https://alpha.dripverse.org",
-          label: "🧪 DripVerse Alpha",
+          href: "https://dripverse.org",
+          label: "🚀 DripVerse Platform",
           position: "right",
         },
         {
@@ -144,7 +144,7 @@ module.exports = {
     image: "img/logo.png",
     footer: {
       links: [],
-      copyright: "Copyright © 2022 DripVerse",
+      copyright: "Copyright © 2023 DripVerse",
       logo: {
         src: "img/logo.png",
       },

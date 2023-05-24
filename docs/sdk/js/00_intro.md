@@ -7,7 +7,7 @@ hide_table_of_contents: false
 
 # Getting Started
 
-![For JavaScript and TypeScript](/docs/assets/welcome-pages/js-ts.jpeg "For JavaScript and TypeScript")
+![For JavaScript and TypeScript](/docs/assets/welcome-pages/sdk-js.png "For JavaScript and TypeScript")
 
 The JavaScript SDK handles communications between your JavaScript App and DripVerse.
 
