@@ -11,6 +11,13 @@
     },
     "guide/mission",
     {
+      "🦾 Building for": [
+        "guide/usecases/dao",
+        "guide/usecases/community",
+        "guide/usecases/metaverse"
+      ]
+    },
+    {
       "💎 NFT": [
         "guide/nft/about",
         {
@@ -23,7 +30,12 @@
         "guide/nft/drop"
       ]
     },
-    "guide/supported/network",
+    {
+      "🤝 Ecosystem": [
+        "guide/supported/network",
+        "guide/supported/login"
+      ]
+    },
     {
       "🔧 Utility": [
         "guide/utility/introduction",
