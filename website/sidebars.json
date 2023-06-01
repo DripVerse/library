@@ -85,5 +85,14 @@
         "cli/drip/deploy"
       ]
     }
+  ],
+  "wallet": [
+    "wallet/overview",
+    {
+      "👻 wallet": [
+        "wallet/drip-wallet/introduction",
+        "wallet/drip-wallet/setup"
+      ]
+    }
   ]
 }
