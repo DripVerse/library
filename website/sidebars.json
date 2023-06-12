@@ -63,7 +63,10 @@
         "sdk/js/verify",
         "sdk/js/mint",
         "sdk/js/nft",
-        "sdk/js/transfer"
+        "sdk/js/transfer",
+        "sdk/js/list",
+        "sdk/js/unlist",
+        "sdk/js/buy"
       ]
     }
   ],

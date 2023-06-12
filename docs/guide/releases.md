@@ -12,6 +12,20 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="sdk" label="SDK" default>
     <details>
+      <summary>0.9.1</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] ERC721 List, Unlist and Buy</li>
+          <li>[Feature] ERC1155 List, Unlist and Buy.</li>
+        </ul>
+        <h3>🛠️ Fixed</h3>
+        <ul>
+          <li>[Feature] User NFT fetching bug.</li>
+        </ul>
+      </p>
+    </details>
+    <details>
       <summary>0.8.14</summary>
       <p>
         <h3>🌟 Added</h3>

@@ -4,16 +4,37 @@ import Tilt from "react-vanilla-tilt";
 
 const releases = [
   {
-    startDate: "June 2023",
-    title: "Q2",
-    version: "1.0.0",
+    startDate: "July 2023",
+    title: "Gojo",
+    version: "0.12.0",
     updates: {
       "DripVerse Platform": {
-        description: ["Auction", "Collection Support"],
+        description: [
+          "Trade",
+          "Calendar Utility",
+          "Call Utility",
+          "New Network",
+        ],
         link: "#",
       },
     },
     status: "upcoming",
+  },
+  {
+    startDate: "June 2023",
+    title: "Q2",
+    version: "0.11.0",
+    updates: {
+      "DripVerse Platform": {
+        description: ["Landing Page Redesign"],
+        link: "#",
+      },
+      "DripVerse SDK": {
+        description: ["Trade ERC721 and ERC1155 on DripVerse"],
+        link: "#",
+      },
+    },
+    status: "ongoing",
   },
   {
     startDate: "May 2023",
@@ -44,7 +65,7 @@ const releases = [
         link: "#",
       },
     },
-    status: "ongoing",
+    status: "active",
   },
   {
     startDate: "April 2023",
@@ -83,7 +104,7 @@ const releases = [
         link: "https://twitter.com/0xDripVerse/status/1648560862519521280",
       },
     },
-    status: "active",
+    status: "past",
   },
   {
     startDate: "March 2023",
@@ -113,7 +134,7 @@ const releases = [
         link: "#",
       },
     },
-    status: "active",
+    status: "past",
   },
   {
     startDate: "February 2023",
@@ -130,7 +151,7 @@ const releases = [
         link: "#",
       },
     },
-    status: "active",
+    status: "past",
   },
   {
     startDate: "January 2023",
