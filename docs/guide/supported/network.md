@@ -13,7 +13,7 @@ import { CardShelf, CardItem } from "@site/components/featurelist"
     <CardItem image="https://i.imgur.com/wcFrJCT.jpg" title="Polygon Mumbai" />
 </CardShelf>
 
-## Mainnet (Coming Soon...):
+## Mainnet:
 <CardShelf>
     <CardItem image="https://i.imgur.com/wcFrJCT.jpg" title="Polygon" />
 </CardShelf>

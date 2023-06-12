@@ -12,7 +12,7 @@ _The internet is now a place where everyone has an inventory._ Let's protect you
 Implementing Token-gating has never been easier. Let's dive into how Gatekeeper works.
 
 ## NFT
-The very first thing we need is an NFT. You can mint your own NFT from [DripVerse Mint Page](https://alpha.dripverse.org/nft/mint).
+The very first thing we need is an NFT. You can mint your own NFT from [DripVerse Mint Page](https://dripverse.org/nft/mint).
 We will also allow importing pre-minted NFTs from other marketplaces in the near future.
 
 ### Utility

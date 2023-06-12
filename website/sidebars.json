@@ -10,6 +10,7 @@
       ]
     },
     "guide/mission",
+    "guide/supported/network",
     {
       "💎 NFT": [
         "guide/nft/about",
@@ -23,7 +24,12 @@
         "guide/nft/drop"
       ]
     },
-    "guide/supported/network",
+    {
+      "™ Project": [
+        "guide/project/project",
+        "guide/project/new"
+      ]
+    },
     {
       "🔧 Utility": [
         "guide/utility/introduction",

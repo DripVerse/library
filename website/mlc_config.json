@@ -20,6 +20,9 @@
     },
     {
       "pattern": "^https://alpha.dripverse.org"
+    },
+    {
+      "pattern": "^https://dripverse.org"
     }
   ],
   "timeout": "20s",

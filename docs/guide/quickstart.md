@@ -16,7 +16,7 @@ Once your're approved, you're all set to explore the whole platform and integrat
 
 ## Step 1: Mint your first NFT
 
-- Head over to [https://alpha.dripverse.org/nft/mint](https://alpha.dripverse.org/nft/mint).
+- Head over to [https://dripverse.org/nft/mint](https://dripverse.org/nft/mint).
 - Fill all the appropriate fields, click on **Submit** and sign the transaction.
 
 <VideoCard url="https://assets.dripverse.org/videos/mint.mp4" />
