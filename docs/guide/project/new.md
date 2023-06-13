@@ -1,7 +1,7 @@
 ---
 id: new
 title: New Project
-sidebar_label: 🆕 Create New Project
+sidebar_label: ✨ Create New Project
 hide_table_of_contents: false
 ---
 

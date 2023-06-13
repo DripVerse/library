@@ -11,12 +11,13 @@ import { CardShelf, CardItem } from "@site/components/featurelist"
 ## Wallets:
 <CardShelf>
     <CardItem image="https://i.imgur.com/mDt0Lpp.jpg" title="Metamask" />
-    <CardItem image="https://simplehold.io/api/file/626e596851217b0022c00539-Blog_WalletConnect%202.png" title="Wallet Connect" />
+    <CardItem image="https://wallet.dripverse.org/images/logo.svg" title="Drip Wallet" />
 </CardShelf>
 
 ## Other:
 <CardShelf>
     <CardItem image="https://cryptodailycdn.ams3.cdn.digitaloceanspaces.com/unstoppable-domains-podcasst.jpg" title="Unstoppable Domains" />
+    <CardItem image="https://e0.pxfuel.com/wallpapers/974/611/desktop-wallpaper-google-logo-black-background-dark-logo.jpg" title="Google" />
 </CardShelf>
 
 :::success

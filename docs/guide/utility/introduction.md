@@ -13,12 +13,8 @@ Let's learn more about our available utilities in DripVerse.
 
 <FeatureList>
   <Column title="Community and Events">
-    <Feature url="/guide/utility/gatekeeper/welcome" title="Gated Discord" subtitle="Create Exclusive Discord Community" image="icons/discord-lock.png" />
+    <Feature url="/guide/utility/discord" title="Gated Discord" subtitle="Create Exclusive Discord Community" image="icons/discord-lock.png" />
     <Feature url="/guide/utility/pass/about" title="NFT Pass" subtitle="Create NFT Pass for Event" image="icons/pass-qr.png" />
-  </Column>
-  <Column title="Connect and Network">
-    <Feature url="#" title="1:1 meeting with Cal.com" subtitle="Allow scheduling meeting" image="icons/cal.png" />
-    <Feature url="#" title="1:1 Video Call" subtitle="Arrange exclusive video call" image="icons/video-call.png" />
   </Column>
   <Column title="Share Resources">
     <Feature url="/guide/utility/gatekeeper/welcome" title="Secret Link" subtitle="Embed Secret Link to NFT" image="icons/gatekeeper.png" />
@@ -28,9 +24,13 @@ Let's learn more about our available utilities in DripVerse.
 ---
 
 ### Upcoming Utilities:
-Some of the utilities identified for future releases:
+Some of the utilities identified for future releases: 🔜
 
 <FeatureList>
+  <Column title="Connect and Network">
+    <Feature url="#" title="1:1 meeting with Cal.com" subtitle="Allow scheduling meeting" image="icons/cal.png" />
+    <Feature url="#" title="1:1 Video Call" subtitle="Arrange exclusive video call" image="icons/video-call.png" />
+  </Column>
   <Column title="Community and Events">
     <Feature url="#" title="Allowlist" subtitle="Automate access, Increase Visibility" image="icons/allowlist-icon.png" />
     <Feature url="#" title="Newsletter" subtitle="Build a community of readers" image="icons/newsletter.png" />

@@ -10,7 +10,12 @@
       ]
     },
     "guide/mission",
-    "guide/supported/network",
+    {
+      "🦾 Supported": [
+        "guide/supported/network",
+        "guide/supported/login"
+      ]
+    },
     {
       "💎 NFT": [
         "guide/nft/about",
@@ -25,7 +30,7 @@
       ]
     },
     {
-      "™ Project": [
+      "🏗️ Project": [
         "guide/project/project",
         "guide/project/new"
       ]
@@ -33,12 +38,12 @@
     {
       "🔧 Utility": [
         "guide/utility/introduction",
+        "guide/utility/discord",
         {
           "🗝️ Gatekeeper": [
             "guide/utility/gatekeeper/welcome",
             "guide/utility/gatekeeper/setup",
-            "guide/utility/gatekeeper/sdk",
-            "guide/utility/gatekeeper/discord"
+            "guide/utility/gatekeeper/sdk"
           ],
           "🎫 Pass": [
             "guide/utility/pass/about",
