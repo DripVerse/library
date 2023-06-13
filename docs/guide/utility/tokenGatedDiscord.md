@@ -1,7 +1,7 @@
 ---
 id: discord
 title: Token Gated Discord
-sidebar_label: 🔐 Token Gated Discord
+sidebar_label: 👾 Token Gated Discord
 hide_table_of_contents: true
 ---
 
