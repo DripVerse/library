@@ -22,15 +22,20 @@ const releases = [
   },
   {
     startDate: "June 2023",
-    title: "Q2",
+    title: "Phoenix",
     version: "0.11.0",
     updates: {
       "DripVerse Platform": {
-        description: ["Landing Page Redesign"],
+        description: ["Landing Page Redesign", "Use Cases re-worked"],
         link: "#",
       },
       "DripVerse SDK": {
-        description: ["Trade ERC721 and ERC1155 on DripVerse"],
+        description: [
+          "Trade ERC721 and ERC1155 on DripVerse",
+          "Mint for a different user",
+          "Serialised Batch Minting",
+          "Better Error Reporting",
+        ],
         link: "#",
       },
     },
@@ -310,7 +315,7 @@ const Milestone = ({ milestone }) => {
         defaultChecked={milestone.status === "ongoing" ? true : false}
       />
       <label htmlFor={milestone.version}>
-        <h2>v{milestone.version}</h2>
+        <h2>🧗‍♂️{milestone.version}</h2>
         <h3>
           {milestone.title} ({milestone.startDate})
         </h3>

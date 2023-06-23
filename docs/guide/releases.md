@@ -12,6 +12,26 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="sdk" label="SDK" default>
     <details>
+      <summary>0.9.10</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] ERC721 Mint For</li>
+          <li>[Feature] ERC721 Serialised Batch Mint</li>
+          <li>[Feature] Default Contract for each network and standard.</li>
+        </ul>
+        <h3>⑃ Changed</h3>
+        <ul>
+          <li>Error Return in Mint and Transfer methods.</li>
+          <li>Single owner of NFT.</li>
+        </ul>
+        <h3>🛡️ Security</h3>
+        <ul>
+          <li>Check for token owner limited access to their own token.</li>
+        </ul>
+      </p>
+    </details>
+    <details>
       <summary>0.9.1</summary>
       <p>
         <h3>🌟 Added</h3>
