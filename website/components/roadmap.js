@@ -4,26 +4,50 @@ import Tilt from "react-vanilla-tilt";
 
 const releases = [
   {
-    startDate: "July 2023",
-    title: "Gojo",
-    version: "0.12.0",
+    startDate: "August 2023",
+    title: "Dazai",
+    version: "0.13",
     updates: {
       "DripVerse Platform": {
-        description: [
-          "Trade",
-          "Calendar Utility",
-          "Call Utility",
-          "New Network",
-        ],
+        description: ["🎉 Arbitrum Testnet"],
+        link: "#",
+      },
+      "DripVerse SDK": {
+        description: ["🎉 Arbitrum Testnet"],
         link: "#",
       },
     },
     status: "upcoming",
   },
   {
+    startDate: "July 2023",
+    title: "Gojo",
+    version: "0.12",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "📈 Listing",
+          "📈 Trade",
+          "📊 Project Analytics",
+          "🎉 Polygon ZkEVM Testnet",
+        ],
+        link: "#",
+      },
+      "DripVerse SDK": {
+        description: ["🎉 Polygon ZkEVM Testnet"],
+        link: "#",
+      },
+      "DripVerse Wallet": {
+        description: ["🎉 Polygon Mainnet", "🐞 Import Collectible"],
+        link: "#",
+      },
+    },
+    status: "ongoing",
+  },
+  {
     startDate: "June 2023",
     title: "Phoenix",
-    version: "0.11.0",
+    version: "0.11",
     updates: {
       "DripVerse Platform": {
         description: ["Landing Page Redesign", "Use Cases re-worked"],
@@ -39,12 +63,12 @@ const releases = [
         link: "#",
       },
     },
-    status: "ongoing",
+    status: "active",
   },
   {
     startDate: "May 2023",
     title: "Naruto",
-    version: "0.10.0",
+    version: "0.10",
     updates: {
       "DripVerse Platform": {
         description: [
@@ -75,7 +99,7 @@ const releases = [
   {
     startDate: "April 2023",
     title: "Purple",
-    version: "0.9.0",
+    version: "0.9",
     updates: {
       "DripVerse Platform": {
         description: [
@@ -114,7 +138,7 @@ const releases = [
   {
     startDate: "March 2023",
     title: "Clover",
-    version: "0.8.0",
+    version: "0.8",
     updates: {
       "DripVerse Platform": {
         description: [
@@ -144,7 +168,7 @@ const releases = [
   {
     startDate: "February 2023",
     title: "Aplha",
-    version: "0.7.4",
+    version: "0.7",
     updates: {
       "DripVerse Platform": {
         description: ["Project Page"],
@@ -161,7 +185,7 @@ const releases = [
   {
     startDate: "January 2023",
     title: "Pre-Aplha Mainnet",
-    version: "0.5.0",
+    version: "0.5",
     updates: {
       "DripVerse Platform": {
         description: [
@@ -178,7 +202,7 @@ const releases = [
   {
     startDate: "December 2022",
     title: "Pre-Alpha",
-    version: "0.4.16",
+    version: "0.4",
     updates: {
       "DripVerse Platform": {
         description: [
@@ -235,7 +259,7 @@ const releases = [
   {
     startDate: "August 2022",
     title: "Ideation",
-    version: "0.1.0",
+    version: "0.1",
     updates: {
       Vision: {
         description: [
