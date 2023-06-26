@@ -1,11 +1,9 @@
 ---
 id: nft
-title: DripVerse NFT
+title: Get NFT Information
 sidebar_label: NFT Details
 hide_table_of_contents: false
 ---
-
-# Get NFT Information
 
 This function is used to get the nft information for dripverse protocol.
 

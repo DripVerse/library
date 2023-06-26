@@ -71,7 +71,8 @@
         "sdk/js/transfer",
         "sdk/js/list",
         "sdk/js/unlist",
-        "sdk/js/buy"
+        "sdk/js/buy",
+        "sdk/js/mint-bulk"
       ]
     }
   ],

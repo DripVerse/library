@@ -1,6 +1,6 @@
 ---
 id: transfer
-title: DripVerse Transfer
+title: Transfer/Send NFT
 sidebar_label: Transfer
 hide_table_of_contents: false
 ---
@@ -8,11 +8,10 @@ hide_table_of_contents: false
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Transfer/Send NFT
-
 This is a guide used to transfer an existing NFT.
 
 Transfer Data:
+
 ```js
 const transferData = {
   from: "0x...",

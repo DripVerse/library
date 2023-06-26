@@ -7,7 +7,6 @@ hide_table_of_contents: false
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Initialising
 Let's initiate library in your project, depending on if you're following ES6 standard or CommonJS module format.
 
 ## Import
@@ -15,7 +14,9 @@ Let's initiate library in your project, depending on if you're following ES6 sta
 ```js
 import { DripSDK } from 'dripverse';
 ```
+
 or
+
 ```js
 const { DripSDK } = require('dripverse');
 ```
@@ -23,9 +24,11 @@ const { DripSDK } = require('dripverse');
 ## Initialise
 
 You can generate your Project API from the Utility Page of the NFT or the Project page itself.
+
 ```js
 var drip = new DripSDK('PROJECT_API_KEY');
 ```
+
 [Read more about Utility Setup on DripVerse Platform.](../../guide/utility/gatekeeper/setup.md)
 
 <!-- If you want to work on `local` or `alpha`, please add the following:
@@ -37,7 +40,6 @@ Note: Please use your generated project key only and do NOT share your project k
 :::
 
 ---
-
 
 ### Contract Client
 
@@ -96,6 +98,7 @@ Currently, supported Chain IDs:
 ```
 
 In case, you've a custom contract deployed, you can call it instead:
+
 ```js
 // Get Custom Contract Client
 let contract = await drip.contractClient({
@@ -124,7 +127,9 @@ There are several ways to get wallet client.
 // Get your walletClient:
 let walletClient = await drip.walletClient(PRIVATE_KEY);
 ```
+
 Optional:
+
 - `networkId`:
   - `1` : Polygon Mumbai Testnet
   - `3` : Polygon Mainnet (Default)

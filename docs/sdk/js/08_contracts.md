@@ -1,11 +1,9 @@
 ---
 id: contracts
-title: DripVerse Contracts
+title: Get Contract Data
 sidebar_label: Contracts
 hide_table_of_contents: false
 ---
-
-# Get Contract Information
 
 This function is used to get the contract information for dripverse protocol.
 

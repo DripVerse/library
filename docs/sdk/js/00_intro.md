@@ -1,11 +1,8 @@
 ---
 id: introduction
-title: JavaScript SDK
-sidebar_label: Getting Started
+title: Getting Started
 hide_table_of_contents: false
 ---
-
-# Getting Started
 
 ![For JavaScript and TypeScript](/docs/assets/welcome-pages/sdk-js.png "For JavaScript and TypeScript")
 

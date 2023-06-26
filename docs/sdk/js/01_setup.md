@@ -6,14 +6,13 @@ hide_table_of_contents: false
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import CodeBlock from '@theme/CodeBlock';
 
-# Setup
 Let's start powering your Dapp with DripVerse.
 
 ## Prerequisites
 
-### Minimum Requirements:
+### Minimum Requirements
+
 - Node `v16.x.x` or above.
 
 ## Install
@@ -21,21 +20,33 @@ Let's start powering your Dapp with DripVerse.
 The library is available on [Node Package Manager](https://www.npmjs.com/package/dripverse).
 
 From inside your project root, run:
+
+```mdx-code-block
 <Tabs>
   <TabItem value="npm" label="npm" default>
-    <CodeBlock language="bash">
-   npm install dripverse --save
-    </CodeBlock>
+```
+
+```bash
+npm install dripverse --save
+```
+
+```mdx-code-block
   </TabItem>
 
   <TabItem value="yarn" label="yarn">
-    <CodeBlock language="bash">
-   yarn add dripverse
-    </CodeBlock>
+```
+
+```bash
+yarn add dripverse
+```
+
+```mdx-code-block
   </TabItem>
 </Tabs>
+```
 
 You can verify which package version is installed by running:
+
 ```bash
 npm list
 ```
@@ -64,6 +75,7 @@ Or you can update the package version on `package.json` directly:
 ```
 
 And then run:
+
 ```js
 npm install
 ```

@@ -1,6 +1,6 @@
 ---
 id: list
-title: DripVerse List
+title: List NFT
 sidebar_label: List
 hide_table_of_contents: false
 ---
@@ -16,14 +16,14 @@ Make sure you've [contractSigner](/sdk/js/init#contract-client) object before pr
 
 Please make sure your `contractSigner` from previous step is derived from the right contract and call the functions below accordingly.
 
-# List NFT
-
 ```js
 const price = 25;
 ```
+
 The price is in native tokens. For example, if your network is Polygon, the above will represent 25 MATIC tokens.
 
 List Data:
+
 ```js
 const listData = {
   nftId: "1"

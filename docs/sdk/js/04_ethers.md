@@ -5,7 +5,6 @@ sidebar_label: EthersJS
 hide_table_of_contents: false
 ---
 
-# Initialising EthersJS
 [EthersJs](https://ethers.org/) library aims to be a complete and compact library for interacting with the Ethereum Blockchain and its ecosystem. While you can very well install ethers.js directly by following the documentation above, we do recommend using the one dripverse sdk provides, as this one will have added functionalities
 
 ## Import
@@ -13,7 +12,9 @@ hide_table_of_contents: false
 ```js
 import { ethers } from 'dripverse';
 ```
+
 or
+
 ```js
 const { ethers } = require('dripverse');
 ```

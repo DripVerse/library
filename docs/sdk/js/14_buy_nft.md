@@ -1,6 +1,6 @@
 ---
 id: buy
-title: DripVerse Buy
+title: Buy NFT
 sidebar_label: Buy
 hide_table_of_contents: false
 ---
@@ -15,8 +15,6 @@ Make sure you've [contractSigner](/sdk/js/init#contract-client) object before pr
 :::
 
 Please make sure your `contractSigner` from previous step is derived from the right contract and call the functions below accordingly.
-
-# Buy NFT
 
 ```js
 const price = 25;

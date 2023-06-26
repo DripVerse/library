@@ -1,11 +1,9 @@
 ---
 id: networks
-title: DripVerse Networks
+title: Get Network Data
 sidebar_label: Networks
 hide_table_of_contents: false
 ---
-
-# Get Network Information
 
 This function is used to get the network information for dripverse protocol.
 

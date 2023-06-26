@@ -1,14 +1,12 @@
 ---
 id: mint
-title: DripVerse Mint
+title: Mint NFT
 sidebar_label: Mint
 hide_table_of_contents: false
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-
-# Mint an NFT
 
 This is a guide used to mint a new NFT.
 
