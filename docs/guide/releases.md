@@ -12,6 +12,15 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="sdk" label="SDK" default>
     <details>
+      <summary>0.9.12</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] Upload file and get metadata object using Web3Storage Module</li>
+        </ul>
+      </p>
+    </details>
+    <details>
       <summary>0.9.10</summary>
       <p>
         <h3>🌟 Added</h3>

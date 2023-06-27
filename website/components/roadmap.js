@@ -34,7 +34,7 @@ const releases = [
         link: "#",
       },
       "DripVerse SDK": {
-        description: ["🎉 Polygon ZkEVM Testnet"],
+        description: ["Web3Storage Module", "🎉 Polygon ZkEVM Testnet"],
         link: "#",
       },
       "DripVerse Wallet": {
