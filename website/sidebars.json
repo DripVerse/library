@@ -66,6 +66,13 @@
         "sdk/js/ethersjs",
         "sdk/js/status",
         "sdk/js/verify",
+        {
+          "🫙 Web3Storage": [
+            "sdk/js/storage/init",
+            "sdk/js/storage/upload",
+            "sdk/js/storage/metadata"
+          ]
+        },
         "sdk/js/mint",
         "sdk/js/nft",
         "sdk/js/transfer",
