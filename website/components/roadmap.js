@@ -9,7 +9,12 @@ const releases = [
     version: "0.13",
     updates: {
       "DripVerse Platform": {
-        description: ["🎉 Arbitrum Testnet"],
+        description: [
+          "🎉 Arbitrum Testnet",
+          "📊 Project Analytics",
+          "📈 Listing",
+          "📈 Trade",
+        ],
         link: "#",
       },
       "DripVerse SDK": {
@@ -26,15 +31,20 @@ const releases = [
     updates: {
       "DripVerse Platform": {
         description: [
-          "📈 Listing",
-          "📈 Trade",
-          "📊 Project Analytics",
-          "🎉 Polygon ZkEVM Testnet",
+          "🎉 Sepolia Testnet Support",
+          "🎉 Omni Testnet Support",
+          "🗓️ Calendly Utility",
         ],
         link: "#",
       },
       "DripVerse SDK": {
-        description: ["Web3Storage Module", "🎉 Polygon ZkEVM Testnet"],
+        description: [
+          "Web3Storage Module",
+          "🎉 Sepolia Testnet Support",
+          "🎉 Omni Testnet Support",
+          "🗓️ Calendly Utility",
+          "✨ Dynamic NFTs",
+        ],
         link: "#",
       },
       "DripVerse Wallet": {

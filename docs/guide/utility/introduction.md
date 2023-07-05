@@ -8,7 +8,8 @@ import {FeatureList, Column, Feature, Contact} from "@site/components/featurelis
 
 Utilities are an important part of the Cyberspace, as it lets us add actions to NFTs, thus making Smart NFTs. Utilities have their own specific functions as designed for.
 
-### Available Utilities:
+### Available Utilities
+
 Let's learn more about our available utilities in DripVerse.
 
 <FeatureList>
@@ -19,11 +20,15 @@ Let's learn more about our available utilities in DripVerse.
   <Column title="Share Resources">
     <Feature url="/guide/utility/gatekeeper/welcome" title="Secret Link" subtitle="Embed Secret Link to NFT" image="icons/gatekeeper.png" />
   </Column>
+  <Column title="Connect and Network">
+    <Feature url="#" title="1:1 meeting with Calendly" subtitle="Allow scheduling meeting" image="icons/calendly.png" />
+  </Column>
 </FeatureList>
 
 ---
 
-### Upcoming Utilities:
+### Upcoming Utilities
+
 Some of the utilities identified for future releases: 🔜
 
 <FeatureList>

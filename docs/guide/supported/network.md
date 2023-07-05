@@ -11,6 +11,8 @@ import { CardShelf, CardItem } from "@site/components/featurelist"
 ## Testnets:
 <CardShelf>
     <CardItem image="https://i.imgur.com/wcFrJCT.jpg" title="Polygon Mumbai" />
+    <CardItem image="https://assets.dripverse.org/logos/sepolia.png" title="Sepolia Testnet" />
+    <CardItem image="https://assets.dripverse.org/logos/omni.png" title="Omni Testnet" />
 </CardShelf>
 
 ## Mainnet:
