@@ -42,7 +42,7 @@ const releases = [
           "Web3Storage Module",
           "🎉 Sepolia Testnet Support",
           "🎉 Omni Testnet Support",
-          "🗓️ Calendly Utility",
+          "🗓️ Calendly Utility Add and Access",
           "✨ Dynamic NFTs",
         ],
         link: "#",

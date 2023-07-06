@@ -12,6 +12,18 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="sdk" label="SDK" default>
     <details>
+      <summary>0.9.15</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] Add Calendly Utility</li>
+          <li>[Feature] Access Calendly Utility</li>
+          <li>[Feature] Sepolia Testnet Support.</li>
+          <li>[Feature] Omni Testnet Support.</li>
+        </ul>
+      </p>
+    </details>
+    <details>
       <summary>0.9.12</summary>
       <p>
         <h3>🌟 Added</h3>
@@ -98,6 +110,22 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 
   <TabItem value="platform" label="Platform">
+    <details>
+      <summary>0.8.0</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] Sepolia Testnet Support.</li>
+          <li>[Feature] Omni Testnet Support.</li>
+        </ul>
+      </p>
+      <p>
+        <h3>🛠️ Fixed</h3>
+        <ul>
+          <li>Network access and icon fix.</li>
+        </ul>
+      </p>
+    </details>
     <details>
       <summary>0.7.0</summary>
       <p>
@@ -201,6 +229,65 @@ import TabItem from '@theme/TabItem';
           <li>[Feature] Upload single asset to IPFS.</li>
           <li>[Feature] Upload all assets in a directory to IPFS.</li>
           <li>[Feature] Supports Polygon Testnet and Mainnet via Alchemy.</li>
+        </ul>
+      </p>
+    </details>
+  </TabItem>
+
+  <TabItem value="wallet" label="Wallet">
+    <details>
+      <summary>0.0.5</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] Polygon Mainnet Support.</li>
+        </ul>
+      </p>
+    </details>
+    <details>
+      <summary>0.0.4</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] Enabled for production.</li>
+        </ul>
+      </p>
+    </details>
+    <details>
+      <summary>0.0.3</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] New Logo.</li>
+          <li>[Feature] Login to DApps supported.</li>
+        </ul>
+      </p>
+    </details>
+    <details>
+      <summary>0.0.2</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] Import account with seed and private key.</li>
+          <li>[Feature] Time lock customisable.</li>
+        </ul>
+      </p>
+      <p>
+        <h3>⑃ Changed</h3>
+        <ul>
+          <li>Possible fix for disappearing accounts bug.</li>
+        </ul>
+      </p>
+    </details>
+    <details>
+      <summary>0.0.1</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] Polygon Testnet Support.</li>
+          <li>[Feature] Supported only on Alpha.</li>
+          <li>[Feature] Create user accounts with seed generation.</li>
+          <li>[Feature] Live Price Update for Polygon Testnet via coinmarketcap api.</li>
         </ul>
       </p>
     </details>
