@@ -125,6 +125,12 @@ import TabItem from '@theme/TabItem';
           <li>Network access and icon fix.</li>
         </ul>
       </p>
+      <p>
+        <h3>🗑️ Removed</h3>
+        <ul>
+          <li>Open to all wallet types. Waitlist is now removed.</li>
+        </ul>
+      </p>
     </details>
     <details>
       <summary>0.7.0</summary>

@@ -34,6 +34,7 @@ const releases = [
           "🎉 Sepolia Testnet Support",
           "🎉 Omni Testnet Support",
           "🗓️ Calendly Utility",
+          "Removed Waitlist",
         ],
         link: "#",
       },
