@@ -167,7 +167,7 @@ function Footer() {
                   <span className="screen-reader-text">GitHub</span>
                 </a>
               </li>
-              {/* <li className="mx-20">
+              <li className="mx-20">
                 <a
                   href="http://discord.gg/mCVFhmbQvw"
                   className="block hover:text-discord"
@@ -183,7 +183,7 @@ function Footer() {
                   </span>
                   <span className="screen-reader-text">Discord</span>
                 </a>
-              </li> */}
+              </li>
               <li className="mx-20">
                 <a
                   href="https://t.me/DripVerse"
