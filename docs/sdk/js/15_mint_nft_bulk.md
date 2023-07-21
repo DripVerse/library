@@ -13,7 +13,24 @@ There are several ways to do so. One of the easiest to get started in serialised
 
 ### Upload to IPFS
 
-First, you need to [upload entire directory to IPFS](/guide/nft/storage/upload#upload-directory). You'll get a cid, like: `bafybeibljtdrq2ar6xofoo4tdem223go4en44sgvii4xmlinbgrq2gidmi`. Make sure that the files inside this directory are in order and numbered accordingly as 1.svg, 2.svg, ...and so on. This will create the directory as it is on IPFS with all it's files inside.
+First, you need to [upload entire directory to IPFS](/guide/nft/storage/upload#upload-directory). You'll get a cid, like: `bafybeibljtdrq2ar6xofoo4tdem223go4en44sgvii4xmlinbgrq2gidmi`. Make sure that the files inside this directory are in order and numbered accordingly as 1.png, 2.png, ...and so on. This will create the directory as it is on IPFS with all it's files inside.
+
+We would also need the following, to define a name and description to your NFT.
+
+```js
+let mintData = {
+  name: "NFT Name",
+  description: "NFT Description",
+  userAccount: "0x..." // This is the account who'll be the new owner of these NFTs. If it's you yourself, put here your public account address.
+};
+```
+
+Optional:
+
+- `description`
+- `networkId` (_default 3: Polygon Mainnet_)
+- `contractId` (_default 6: Polygon Mainnet ERC721_)
+- `metadata`
 
 Make a JSON Object with following details. Your object can be an image or an entire `metadata.json`.
 
@@ -41,29 +58,14 @@ let cid = {
   assetType: "json",
   cid: "bafyreieha6jqtnu4f4njyaovknxyyxeurkcsopcryrggxkt7hcbi5zmwzi",
 };
+
+mintData.assets = ['image-ipfs-link-1', 'image-ipfs-link-2', ...]
 ```
 
 ```mdx-code-block
   </TabItem>
 </Tabs>
 ```
-
-We would also need the following, to define a name and description to your NFT.
-
-```js
-let mintData = {
-  name: "NFT Name",
-  description: "NFT Description",
-  userAccount: "0x..." // This is the account who'll be the new owner of these NFTs. If it's you yourself, put here your public account address.
-};
-```
-
-Optional:
-
-- `description`
-- `networkId` (_default 3: Polygon Mainnet_)
-- `contractId` (_default 6: Polygon Mainnet ERC721_)
-- `metadata`
 
 You'd also need a `customData` here, to define the range in which the files are numbered:
 
