@@ -34,10 +34,10 @@ Some of the utilities identified for future releases: 🔜
 <FeatureList>
   <Column title="Dynamic NFT">
     <Feature url="#" title="Trigger Based" subtitle="Trigger based update" image="icons/trigger.png" />
-    <Feature url="#" title="Time Based" subtitle="Update at certain time" image="icons/time.png" />
-    <Feature url="#" title="Location Based" subtitle="Updated based on current location" image="icons/location.png" />
-    <Feature url="#" title="Weather Based" subtitle="Updated based on Weather of a location" image="icons/weather.png" />
-    <Feature url="#" title="Price Based" subtitle="Updated based on market price of a token" image="icons/price.png" />
+    <Feature url="#" title="Timekeeper" subtitle="Update at certain time" image="icons/time.png" />
+    <Feature url="#" title="Location" subtitle="Updated based on current location" image="icons/location.png" />
+    <Feature url="#" title="Weather" subtitle="Updated based on Weather of a location" image="icons/weather.png" />
+    <Feature url="#" title="Price Feed" subtitle="Updated based on market price of a token" image="icons/price.png" />
   </Column>
   <Column title="Connect and Network">
     <Feature url="#" title="1:1 meeting with Cal.com" subtitle="Allow scheduling meeting" image="icons/cal.png" />
