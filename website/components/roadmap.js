@@ -21,6 +21,10 @@ const releases = [
         description: ["🎉 Arbitrum Testnet"],
         link: "#",
       },
+      "DripVerse Wallet": {
+        description: ["🎉 Polygon Mainnet", "🐞 Import Collectible"],
+        link: "#",
+      },
     },
     status: "upcoming",
   },
@@ -33,6 +37,7 @@ const releases = [
         description: [
           "🎉 Sepolia Testnet Support",
           "🎉 Omni Testnet Support",
+          "🎉 Nautilus Testnet Support",
           "🗓️ Calendly Utility",
           "Removed Waitlist",
         ],
@@ -43,13 +48,10 @@ const releases = [
           "Web3Storage Module",
           "🎉 Sepolia Testnet Support",
           "🎉 Omni Testnet Support",
+          "🎉 Nautilus Testnet Support",
           "🗓️ Calendly Utility Add and Access",
           "✨ Dynamic NFTs",
         ],
-        link: "#",
-      },
-      "DripVerse Wallet": {
-        description: ["🎉 Polygon Mainnet", "🐞 Import Collectible"],
         link: "#",
       },
     },
