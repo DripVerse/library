@@ -29,7 +29,7 @@
   padding: 0 20px 20px;
   box-shadow: 0 15px 25px rgb(26 198 46 / 5%);
   border-radius: 5px;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 .roadmap-container .container .tab input {
   appearance: none;

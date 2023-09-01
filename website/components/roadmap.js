@@ -40,7 +40,14 @@ const releases = [
         link: "#",
       },
       "DripVerse SDK": {
-        description: ["🎉 Arbitrum Testnet"],
+        description: [
+          "🎉 Moonbeam alpha Testnet",
+          "🎉 Linea Testnet",
+          "🎉 Mantle Testnet",
+          "🎉 Arbitrum Testnet",
+          "🎉 Scroll Testnet",
+          "🎉 Omni Testnet",
+        ],
         link: "#",
       },
     },
