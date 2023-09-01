@@ -29,7 +29,9 @@ const releases = [
     updates: {
       "DripVerse Platform": {
         description: [
-          "🎉 Moonbeam alpha Testnet",
+          "🎉 Zetachain Testnet",
+          "🎉 Skale Testnet",
+          "🎉 Moonbeam Alphanet Testnet",
           "🎉 Linea Testnet",
           "🎉 Mantle Testnet",
           "🎉 Arbitrum Testnet",
@@ -41,7 +43,9 @@ const releases = [
       },
       "DripVerse SDK": {
         description: [
-          "🎉 Moonbeam alpha Testnet",
+          "🎉 Zetachain Testnet",
+          "🎉 Skale Testnet",
+          "🎉 Moonbeam Alphanet Testnet",
           "🎉 Linea Testnet",
           "🎉 Mantle Testnet",
           "🎉 Arbitrum Testnet",
