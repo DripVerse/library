@@ -4,22 +4,16 @@ import Tilt from "react-vanilla-tilt";
 
 const releases = [
   {
-    startDate: "August 2023",
-    title: "Dazai",
-    version: "0.13",
+    startDate: "October 2023",
+    title: "Durga",
+    version: "0.15",
     updates: {
       "DripVerse Platform": {
         description: [
-          "🎉 Arbitrum Testnet",
           "📊 Project Analytics",
           "📈 Listing",
           "📈 Trade",
         ],
-        link: "#",
-      },
-      "DripVerse SDK": {
-        description: ["🎉 Arbitrum Testnet"],
-        link: "#",
       },
       "DripVerse Wallet": {
         description: ["🎉 Polygon Mainnet", "🐞 Import Collectible"],
@@ -29,6 +23,30 @@ const releases = [
     status: "upcoming",
   },
   {
+    startDate: "September 2023",
+    title: "Luffy",
+    version: "0.14",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "🎉 Moonbeam alpha Testnet",
+          "🎉 Linea Testnet",
+          "🎉 Mantle Testnet",
+          "🎉 Arbitrum Testnet",
+          "🎉 Scroll Testnet",
+          "🎉 Omni Testnet",
+          "✅ Campaign Project Type"
+        ],
+        link: "#",
+      },
+      "DripVerse SDK": {
+        description: ["🎉 Arbitrum Testnet"],
+        link: "#",
+      },
+    },
+    status: "ongoing",
+  },
+  {
     startDate: "July 2023",
     title: "Gojo",
     version: "0.12",
@@ -36,7 +54,7 @@ const releases = [
       "DripVerse Platform": {
         description: [
           "🎉 Sepolia Testnet Support",
-          "🎉 Omni Testnet Support",
+          "🎉 Omni Testnet 1 Support",
           "🎉 Nautilus Testnet Support",
           "🗓️ Calendly Utility",
           "Removed Waitlist",
@@ -47,7 +65,7 @@ const releases = [
         description: [
           "Web3Storage Module",
           "🎉 Sepolia Testnet Support",
-          "🎉 Omni Testnet Support",
+          "🎉 Omni Testnet 1 Support",
           "🎉 Nautilus Testnet Support",
           "🗓️ Calendly Utility Add and Access",
           "✨ Dynamic NFTs",
@@ -55,7 +73,7 @@ const releases = [
         link: "#",
       },
     },
-    status: "ongoing",
+    status: "active",
   },
   {
     startDate: "June 2023",
@@ -76,7 +94,7 @@ const releases = [
         link: "#",
       },
     },
-    status: "active",
+    status: "past",
   },
   {
     startDate: "May 2023",
@@ -107,7 +125,7 @@ const releases = [
         link: "#",
       },
     },
-    status: "active",
+    status: "past",
   },
   {
     startDate: "April 2023",

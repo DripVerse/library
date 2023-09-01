@@ -12,12 +12,20 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="sdk" label="SDK" default>
     <details>
+      <summary>0.10.0</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] Add Utility</li>
+          <li>[Feature] Mint NFT and Add Utility</li>
+        </ul>
+      </p>
+    </details>
+    <details>
       <summary>0.9.15</summary>
       <p>
         <h3>🌟 Added</h3>
         <ul>
-          <li>[Feature] Add Calendly Utility</li>
-          <li>[Feature] Access Calendly Utility</li>
           <li>[Feature] Sepolia Testnet Support.</li>
           <li>[Feature] Omni Testnet Support.</li>
         </ul>
