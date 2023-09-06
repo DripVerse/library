@@ -19,52 +19,21 @@ We would also need the following, to define a name and description to your NFT.
 
 ```js
 let mintData = {
-  name: "NFT Name",
-  description: "NFT Description",
-  userAccount: "0x..." // This is the account who'll be the new owner of these NFTs. If it's you yourself, put here your public account address.
+  name: "Test NFT",
+  description: "Test NFTs",
+  networkId: networkId, // optional. Default 3 -> Polygon PoS Mainnet
+  userAccount: process.env.ACCOUNT, // The owner address of the NFT.
+  metadata: {}, // Contents of metadata is configurable.
 };
 ```
-
-Optional:
-
-- `description`
-- `networkId` (_default 3: Polygon Mainnet_)
-- `contractId` (_default 6: Polygon Mainnet ERC721_)
-- `metadata`
 
 Make a JSON Object with following details. Your object can be an image or an entire `metadata.json`.
 
-```mdx-code-block
-<Tabs>
-  <TabItem value="image" label="Image" default>
-```
-
-```js
-let cid = {
-  assetType: "image",
-  cid: "bafybeibljtdrq2ar6xofoo4tdem223go4en44sgvii4xmlinbgrq2gidmi",
-};
-```
-
-```mdx-code-block
-  </TabItem>
-
-  <TabItem value="metadata" label="Metadata">
-```
-
 ```js
 // where inside metadata.json, there must be a key to `image`
-let cid = {
-  assetType: "json",
-  cid: "bafyreieha6jqtnu4f4njyaovknxyyxeurkcsopcryrggxkt7hcbi5zmwzi",
-};
+let cid = "bafyreieha6jqtnu4f4njyaovknxyyxeurkcsopcryrggxkt7hcbi5zmwzi";
 
 mintData.assets = ['image-ipfs-link-1', 'image-ipfs-link-2', ...]
-```
-
-```mdx-code-block
-  </TabItem>
-</Tabs>
 ```
 
 You'd also need a `customData` here, to define the range in which the files are numbered:
@@ -72,7 +41,8 @@ You'd also need a `customData` here, to define the range in which the files are 
 ```js
 {
     start: 1,
-    end: 4
+    end: 4,
+    ... // other optional params as per custom contracts.
 }
 ```
 
@@ -87,7 +57,12 @@ Make sure you've [contractSigner](/sdk/js/init#contract-client) object before pr
 Now to mint you new NFT, simply call `drip.mint`:
 
 ```js
-let mintResponse = await drip.batchMintFor(mintData, cid, contractSigner, customData);
+let mintResponse = await drip.batchMintFor(
+  mintData,
+  cid,
+  contractSigner,
+  customData
+);
 console.log(mintResponse);
 ```
 

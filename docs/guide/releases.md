@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="sdk" label="SDK" default>
     <details>
-      <summary>0.10.0</summary>
+      <summary>0.10.2</summary>
       <p>
         <h3>🌟 Added</h3>
         <ul>

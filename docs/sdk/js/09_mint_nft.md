@@ -18,51 +18,21 @@ We would also need the following, to define a name and description to your NFT.
 
 ```js
 let mintData = {
-  name: "NFT Name",
-  description: "NFT Description"
+  name: "Test NFT",
+  description: "Test NFTs",
+  networkId: networkId, // optional. Default 3 -> Polygon PoS Mainnet
+  asset:
+    "https://bafybeihvmc2amn3j3lnvl2a4oxvdqh65iujrxz445tvjccazdfpgthndpa.ipfs.nftstorage.link/k-1.jpeg",
+  userAccount: process.env.ACCOUNT, // The owner address of the NFT.
+  metadata: {}, // Contents of metadata is configurable.
 };
 ```
 
 Make a JSON Object with following details. Your object can be an image or an entire `metadata.json`.
 
-```mdx-code-block
-<Tabs>
-  <TabItem value="image" label="Image" default>
-```
-
 ```js
-let cid = {
-  assetType: "image",
-  cid: "bafybeifhadklgjjfdxx2nvomyrhjsobhbxeenwc5bheftcetcyqz4yywim",
-};
+let cid = "bafyreieha6jqtnu4f4njyaovknxyyxeurkcsopcryrggxkt7hcbi5zmwzi";
 ```
-
-```mdx-code-block
-  </TabItem>
-
-  <TabItem value="metadata" label="Metadata">
-```
-
-```js
-// where inside metadata.json, there must be a key to `image`
-let cid = {
-  assetType: "json",
-  cid: "bafyreieha6jqtnu4f4njyaovknxyyxeurkcsopcryrggxkt7hcbi5zmwzi",
-};
-
-mintData.asset = 'https://bafybeihvmc2amn3j3lnvl2a4oxvdqh65iujrxz445tvjccazdfpgthndpa.ipfs.nftstorage.link/k-1.jpeg';
-```
-
-```mdx-code-block
-  </TabItem>
-</Tabs>
-```
-
-Optional:
-
-- `description`
-- `networkId` (_default 3: Polygon Mainnet_)
-- `metadata`
 
 :::success Get Contract Signer
 Make sure you've [contractSigner](/sdk/js/init#contract-client) object before proceeding.
