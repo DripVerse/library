@@ -4,6 +4,7 @@ title: DripVerse Utilities
 sidebar_label: 🔖 Utility Introduction
 hide_table_of_contents: true
 ---
+
 import {FeatureList, Column, Feature, Contact} from "@site/components/featurelist"
 
 Utilities are an important part of the Cyberspace, as it lets us add actions to NFTs, thus making Smart NFTs. Utilities have their own specific functions as designed for.
@@ -21,7 +22,7 @@ Let's learn more about our available utilities in DripVerse.
     <Feature url="/guide/utility/gatekeeper/welcome" title="Secret Link" subtitle="Embed Secret Link to NFT" image="icons/gatekeeper.png" />
   </Column>
   <Column title="Connect and Network">
-    <Feature url="#" title="1:1 meeting with Calendly" subtitle="Allow scheduling meeting" image="icons/calendly.png" />
+    <Feature url="/guide/utility/calendly" title="1:1 meeting with Calendly" subtitle="Allow scheduling meeting" image="icons/calendly.png" />
   </Column>
 </FeatureList>
 
