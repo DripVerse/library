@@ -37,7 +37,8 @@ const releases = [
           "🎉 Arbitrum Testnet",
           "🎉 Scroll Testnet",
           "🎉 Omni Testnet",
-          "✅ Campaign Project Type"
+          "✅ Campaign Project Type",
+          "🗓️ Calendly Utility"
         ],
         link: "#",
       },
@@ -67,7 +68,6 @@ const releases = [
           "🎉 Sepolia Testnet Support",
           "🎉 Omni Testnet 1 Support",
           "🎉 Nautilus Testnet Support",
-          "🗓️ Calendly Utility",
           "Removed Waitlist",
         ],
         link: "#",
