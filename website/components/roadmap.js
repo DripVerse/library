@@ -38,7 +38,8 @@ const releases = [
           "🎉 Scroll Testnet",
           "🎉 Omni Testnet",
           "✅ Campaign Project Type",
-          "🗓️ Calendly Utility"
+          "🗓️ Calendly Utility",
+          "✨ Set any DripVerse NFT as PFP"
         ],
         link: "#",
       },
