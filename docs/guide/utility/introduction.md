@@ -26,6 +26,15 @@ Let's learn more about our available utilities in DripVerse.
   </Column>
 </FeatureList>
 
+<br /><br />
+
+| Type | Utility       |
+| ---- | ------------- |
+| 1    | Secret Link   |
+| 2    | Pass          |
+| 3    | Discord       |
+| 4    | Calendly Link |
+
 ---
 
 ### Upcoming Utilities
