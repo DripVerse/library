@@ -24,6 +24,7 @@ let mintData = {
   networkId: networkId, // optional. Default 3 -> Polygon PoS Mainnet
   userAccount: process.env.ACCOUNT, // The owner address of the NFT.
   metadata: {}, // Contents of metadata is configurable.
+  price: 0.58, //  price of NFT in MATIC
 };
 ```
 
@@ -39,11 +40,13 @@ mintData.assets = ['image-ipfs-link-1', 'image-ipfs-link-2', ...]
 You'd also need a `customData` here, to define the range in which the files are numbered:
 
 ```js
-{
+[
     start: 1,
     end: 4,
-    ... // other optional params as per custom contracts.
-}
+    userAddress,
+    platformFee: 10 // 10%
+    roundedNFTPrice: 58 // price of 1 NFT (upto 2 decimal places) in matic * 100; this is done in order to make it an integer
+]
 ```
 
 If in case your contract needs some additional data in your function, you can add them here.
