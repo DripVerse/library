@@ -4,15 +4,17 @@ import Tilt from "react-vanilla-tilt";
 
 const releases = [
   {
-    startDate: "October 2023",
-    title: "Durga",
-    version: "0.15",
+    startDate: "November 2023",
+    title: "Solo",
+    version: "0.16",
     updates: {
       "DripVerse Platform": {
         description: [
           "📊 Project Analytics",
-          "📈 Listing",
-          "📈 Trade",
+          "🔃 Dynamic NFT on Trigger",
+          "🎉 Calypso Skale Mainnet",
+          "🎉 Zetachain Mainnet",
+          "🎉 SBTs",
         ],
       },
       "DripVerse Wallet": {
@@ -21,6 +23,23 @@ const releases = [
       },
     },
     status: "upcoming",
+  },
+  {
+    startDate: "October 2023",
+    title: "Durga",
+    version: "0.15",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "🔐 Wallet Connect",
+          "🗃️ W3up Client",
+          "📈 Listing",
+          "📈 Trade",
+          "🎉 Calypso Skale Testnet"
+        ],
+      }
+    },
+    status: "ongoing",
   },
   {
     startDate: "September 2023",
@@ -57,7 +76,7 @@ const releases = [
         link: "#",
       },
     },
-    status: "ongoing",
+    status: "active",
   },
   {
     startDate: "July 2023",
