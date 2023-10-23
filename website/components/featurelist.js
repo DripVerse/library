@@ -41,6 +41,24 @@ export function Feature({ image, title, subtitle, url }) {
   );
 }
 
+export function FeatureExternal({ image, title, subtitle, url }) {
+  return (
+    <>
+      <h4> </h4>
+      <a className="avatar" href={url}>
+        <img
+          className="avatar__photo"
+          src={image}
+        />
+        <div className="avatar__intro">
+          <div className="avatar__name">{title}</div>
+          <small className="avatar__subtitle">{subtitle}</small>
+        </div>
+      </a>
+    </>
+  );
+}
+
 export function Contact({}) {
   return (
     <>

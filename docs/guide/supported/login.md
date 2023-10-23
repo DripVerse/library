@@ -4,19 +4,28 @@ title: Supported Logins
 sidebar_label: 🔐 Login
 hide_table_of_contents: true
 ---
+
 import { CardShelf, CardItem } from "@site/components/featurelist"
 
 **All supported login methods by DripVerse Protocol:**
 
-## Wallets:
+## Non-Custodial EOAs:
+
 <CardShelf>
     <CardItem image="https://i.imgur.com/mDt0Lpp.jpg" title="Metamask" />
     <CardItem image="https://wallet.dripverse.org/images/logo.svg" title="Drip Wallet" />
+    <CardItem image="https://assets.dripverse.org/logos/walletconnect.png" title="Wallet Connect" />
 </CardShelf>
 
-## Other:
+## Naming Service:
+
 <CardShelf>
     <CardItem image="https://cryptodailycdn.ams3.cdn.digitaloceanspaces.com/unstoppable-domains-podcasst.jpg" title="Unstoppable Domains" />
+</CardShelf>
+
+## Web2 Login:
+
+<CardShelf>
     <CardItem image="https://e0.pxfuel.com/wallpapers/974/611/desktop-wallpaper-google-logo-black-background-dark-logo.jpg" title="Google" />
 </CardShelf>
 
