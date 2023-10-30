@@ -3,6 +3,25 @@ import "/css/components/roadmap.css";
 import Tilt from "react-vanilla-tilt";
 
 const releases = [
+  // {
+  //   startDate: "December 2023",
+  //   title: "Bucky",
+  //   version: "0.17",
+  //   updates: {
+  //     "DripVerse Platform": {
+  //       description: [
+  //         "📊 Project Analytics",
+  //         "🎉 Zetachain Mainnet",
+  //         "🎉 SBTs",
+  //       ],
+  //     },
+  //     "DripVerse Wallet": {
+  //       description: ["🎉 Polygon Mainnet", "🐞 Import Collectible"],
+  //       link: "#",
+  //     },
+  //   },
+  //   status: "upcoming",
+  // },
   {
     startDate: "November 2023",
     title: "Solo",
@@ -10,19 +29,13 @@ const releases = [
     updates: {
       "DripVerse Platform": {
         description: [
-          "📊 Project Analytics",
           "🔃 Dynamic NFT on Trigger",
           "🎉 Calypso Skale Mainnet",
-          "🎉 Zetachain Mainnet",
-          "🎉 SBTs",
+          "🎉 ZkSync Testnet",
         ],
       },
-      "DripVerse Wallet": {
-        description: ["🎉 Polygon Mainnet", "🐞 Import Collectible"],
-        link: "#",
-      },
     },
-    status: "upcoming",
+    status: "ongoing",
   },
   {
     startDate: "October 2023",
@@ -39,7 +52,7 @@ const releases = [
         ],
       }
     },
-    status: "ongoing",
+    status: "active",
   },
   {
     startDate: "September 2023",
@@ -104,7 +117,7 @@ const releases = [
         link: "#",
       },
     },
-    status: "active",
+    status: "past",
   },
   {
     startDate: "June 2023",
@@ -229,7 +242,7 @@ const releases = [
   },
   {
     startDate: "February 2023",
-    title: "Aplha",
+    title: "Alpha",
     version: "0.7",
     updates: {
       "DripVerse Platform": {
@@ -246,7 +259,7 @@ const releases = [
   },
   {
     startDate: "January 2023",
-    title: "Pre-Aplha Mainnet",
+    title: "Pre-Alpha Mainnet",
     version: "0.5",
     updates: {
       "DripVerse Platform": {
