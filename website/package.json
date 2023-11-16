@@ -24,7 +24,7 @@
   "dependencies": {
     "@docusaurus/core": "^2.3.1",
     "@docusaurus/plugin-google-analytics": "^2.3.1",
-    "@docusaurus/plugin-ideal-image": "^2.3.1",
+    "@docusaurus/plugin-ideal-image": "^3.0.0",
     "@docusaurus/plugin-sitemap": "^2.3.1",
     "@docusaurus/preset-classic": "^2.3.1",
     "@saucelabs/theme-github-codeblock": "^0.1.1",
