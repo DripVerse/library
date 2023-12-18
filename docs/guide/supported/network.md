@@ -25,6 +25,8 @@ import { FeatureList, Column, FeatureExternal, CardShelf, CardItem } from "@site
     <FeatureExternal url="#" title="Arbitrum Goerli" subtitle="Arbitrum Goerli Testnet" image="https://assets.dripverse.org/logos/arbitrum.png" />
     <FeatureExternal url="#" title="Optimism" subtitle="Optimism Testnet" image="https://assets.dripverse.org/logos/optimism.png" />
     <FeatureExternal url="#" title="Scroll Sepolia" subtitle="Scroll Sepolia Testnet" image="https://assets.dripverse.org/logos/scroll.png" />
+    <FeatureExternal url="#" title="Base Testnet" subtitle="Base Goerli Testnet" image="https://assets.dripverse.org/logos/base.png" />
+    <FeatureExternal url="#" title="Celo Testnet" subtitle="Celo Alfajores Testnet" image="https://assets.dripverse.org/logos/celo.png" />
   </Column>
 </FeatureList>
 

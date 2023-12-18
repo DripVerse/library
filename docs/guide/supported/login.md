@@ -15,6 +15,7 @@ import { CardShelf, CardItem } from "@site/components/featurelist"
     <CardItem image="https://i.imgur.com/mDt0Lpp.jpg" title="Metamask" />
     <CardItem image="https://wallet.dripverse.org/images/logo.svg" title="Drip Wallet" />
     <CardItem image="https://assets.dripverse.org/logos/walletconnect.png" title="Wallet Connect" />
+    <CardItem image="https://assets.dripverse.org/logos/okx.png" title="OKX Wallet" />
 </CardShelf>
 
 ## Naming Service:

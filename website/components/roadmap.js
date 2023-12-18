@@ -3,25 +3,41 @@ import "/css/components/roadmap.css";
 import Tilt from "react-vanilla-tilt";
 
 const releases = [
-  // {
-  //   startDate: "December 2023",
-  //   title: "Bucky",
-  //   version: "0.17",
-  //   updates: {
-  //     "DripVerse Platform": {
-  //       description: [
-  //         "📊 Project Analytics",
-  //         "🎉 Zetachain Mainnet",
-  //         "🎉 SBTs",
-  //       ],
-  //     },
-  //     "DripVerse Wallet": {
-  //       description: ["🎉 Polygon Mainnet", "🐞 Import Collectible"],
-  //       link: "#",
-  //     },
-  //   },
-  //   status: "upcoming",
-  // },
+  {
+    startDate: "January 2024",
+    title: "Bucky",
+    version: "0.17",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "🎉 Celo Testnet",
+          "🎉 OKX Wallet",
+        ],
+      },
+      // "DripVerse Wallet": {
+      //   description: ["🎉 Polygon Mainnet", "🐞 Import Collectible"],
+      //   link: "#",
+      // },
+    },
+    status: "upcoming",
+  },
+  {
+    startDate: "December 2023",
+    title: "Bucky",
+    version: "0.17",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "🎉 Celo Testnet",
+          "🎉 OKX Wallet",
+          "🎉 Smart Accounts on Polygon",
+          "🎉 Skale Paymaster",
+          "🎉 Calypso Skale Mainnet"
+        ],
+      },
+    },
+    status: "ongoing",
+  },
   {
     startDate: "November 2023",
     title: "Solo",
@@ -30,12 +46,16 @@ const releases = [
       "DripVerse Platform": {
         description: [
           "🔃 Dynamic NFT on Trigger",
-          "🎉 Calypso Skale Mainnet",
-          "🎉 ZkSync Testnet",
+          "🎉 Base Testnet",
+        ],
+      },
+      "DUCK Chat": {
+        description: [
+          "CLI Tool",
         ],
       },
     },
-    status: "ongoing",
+    status: "active",
   },
   {
     startDate: "October 2023",
