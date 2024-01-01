@@ -53,6 +53,12 @@
         "guide/utility/discord"
       ]
     },
+    {
+      "🎭 Avatar": [
+        "guide/avatar/about",
+        "guide/avatar/soul"
+      ]
+    },
     "guide/versioning",
     "guide/releases",
     "guide/roadmap"
