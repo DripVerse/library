@@ -2,16 +2,210 @@ import React from "react";
 import "/css/components/roadmap.css";
 import Tilt from "react-vanilla-tilt";
 
+// Dec - Open Source DripVerse SDKs.
+
 const releases = [
   {
-    startDate: "January 2024",
-    title: "Bucky",
-    version: "0.17",
+    startDate: "December 2024",
+    title: "Santa",
+    version: "2.0",
     updates: {
       "DripVerse Platform": {
         description: [
-          "🎉 Celo Testnet",
-          "🎉 OKX Wallet",
+          "🎉 Advanced Metaverse"
+        ],
+      },
+      "DripVerse SDK": {
+        description: [
+          "👀 Open Source",
+        ],
+        link: "#",
+      },
+    },
+    status: "upcoming",
+  },
+  {
+    startDate: "November 2024",
+    title: "Coffee",
+    version: "1.9",
+    updates: {
+      "DripVerse SDK": {
+        description: [
+          "🎉 Social SDK v1",
+          "Storage SDK v2",
+          "Metaverse SDK v2"
+        ],
+        link: "#",
+      },
+    },
+    status: "upcoming",
+  },
+  {
+    startDate: "October 2024",
+    title: "Ten",
+    version: "1.8",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "🎉 Social Features",
+          "⬡ Open Social Graph"
+        ],
+      },
+    },
+    status: "upcoming",
+  },
+  {
+    startDate: "September 2024",
+    title: "Snow",
+    version: "1.7",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "🎉 NFT Remixes",
+          "🎉 Social Features"
+        ],
+      },
+    },
+    status: "upcoming",
+  },
+  {
+    startDate: "August 2024",
+    title: "Cyberpunk",
+    version: "1.6",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "🎉 Cyberpunk Avatars",
+          "🎉 AI Avatar and design",
+          "🎉 Nested NFTs"
+        ],
+      },
+      "DripVerse SDK": {
+        description: [
+          "🎉 Nested NFTs"
+        ],
+        link: "#",
+      },
+    },
+    status: "upcoming",
+  },
+  {
+    startDate: "July 2024",
+    title: "Flash",
+    version: "1.5",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "🎉 Metaverse Support"
+        ],
+      },
+      "DripVerse SDK": {
+        description: [
+          "🎉 Wallet Support v2",
+          "🎉 Metaverse SDK v1"
+        ],
+        link: "#",
+      },
+    },
+    status: "upcoming",
+  },
+  {
+    startDate: "June 2024",
+    title: "Night",
+    version: "1.4",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "🎨 DAO Support",
+          "🚀 DAO Utilities",
+          "🎉 Content Utilities"
+        ],
+      },
+    },
+    status: "upcoming",
+  },
+  {
+    startDate: "May 2024",
+    title: "Bunker",
+    version: "1.3",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "🎨 Consumer Features",
+          "🚀 Creator Vibe"
+        ],
+      },
+      "DripVerse SDK": {
+        description: ["🎉 Storage SDK v1"],
+        link: "#",
+      },
+    },
+    status: "upcoming",
+  },
+  {
+    startDate: "April 2024",
+    title: "Kyubi",
+    version: "1.2",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "♻️ Interoperable Assets across EVM L2s",
+          "✨ Cosmos Compatible"
+        ],
+      },
+      "DripVerse SDK": {
+        description: ["🎉 Cosmos Integration"],
+        link: "#",
+      },
+    },
+    status: "upcoming",
+  },
+  {
+    startDate: "March 2024",
+    title: "Cid",
+    version: "1.1",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "🎨 Mobile UX Redesigned",
+          "📱 Creator Amigo",
+          "📈 Utility Marketplace"
+        ],
+      },
+    },
+    status: "upcoming",
+  },
+  {
+    startDate: "February 2024",
+    title: "Sukuna",
+    version: "1.0",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "🎨 Utility UX Redesigned",
+          "💰 Rental NFTs"
+        ],
+      },
+      "DripVerse SDK": {
+        description: [
+          "🎉 Release v1"
+        ],
+        link: "#",
+      },
+    },
+    status: "upcoming",
+  },
+  {
+    startDate: "January 2024",
+    title: "Bucky",
+    version: "0.18",
+    updates: {
+      "DripVerse Platform": {
+        description: [
+          "🎉 Calypso Skale Mainnet",
+          "🎨 Redesigned UI",
+          "🎬 Dynamic Utilities",
+          "🥷 Account Abstraction"
         ],
       },
       // "DripVerse Wallet": {
@@ -19,7 +213,7 @@ const releases = [
       //   link: "#",
       // },
     },
-    status: "upcoming",
+    status: "ongoing",
   },
   {
     startDate: "December 2023",
@@ -31,12 +225,11 @@ const releases = [
           "🎉 Celo Testnet",
           "🎉 OKX Wallet",
           "🎉 Smart Accounts on Polygon",
-          "🎉 Skale Paymaster",
-          "🎉 Calypso Skale Mainnet"
+          "🎉 Skale Paymaster"
         ],
       },
     },
-    status: "ongoing",
+    status: "active",
   },
   {
     startDate: "November 2023",
