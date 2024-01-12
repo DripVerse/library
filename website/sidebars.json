@@ -50,7 +50,13 @@
           ]
         },
         "guide/utility/calendly",
-        "guide/utility/discord"
+        "guide/utility/discord",
+        {
+          "💲 Rent": [
+            "guide/utility/rent/rent",
+            "guide/utility/rent/erc4907"
+          ]
+        }
       ]
     },
     "guide/versioning",
