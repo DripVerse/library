@@ -25,6 +25,8 @@ let mintData = {
     "https://bafybeihvmc2amn3j3lnvl2a4oxvdqh65iujrxz445tvjccazdfpgthndpa.ipfs.nftstorage.link/k-1.jpeg",
   userAccount: process.env.ACCOUNT, // The owner address of the NFT.
   metadata: {}, // Contents of metadata is configurable.
+  collectionId: 1, // Collection to which you want to mint the NFT in. If not provided, it'll mint in a default collection. Available in v1.x.x onwards only.
+  contractId: 20, // Contract ID to which you want to mint the NFT in. If not provided, it'll mint in a default contract. If collection id is provided, this option won't be necessary. Collections are synomous to on-chain contract.
 };
 ```
 

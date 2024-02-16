@@ -19,6 +19,7 @@
     {
       "💎 NFT": [
         "guide/nft/about",
+        "guide/nft/collection",
         {
           "🫙 Storage": [
             "guide/nft/storage/storage",
@@ -80,6 +81,7 @@
             "sdk/js/storage/metadata"
           ]
         },
+        "sdk/js/collection",
         "sdk/js/mint",
         "sdk/js/nft",
         "sdk/js/transfer",

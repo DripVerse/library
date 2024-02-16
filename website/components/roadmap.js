@@ -169,7 +169,9 @@ const releases = [
         description: [
           "🎨 Mobile UX Redesigned",
           "📱 Creator Amigo",
-          "📈 Utility Marketplace"
+          "📈 Utility Marketplace",
+          "🎬 Dynamic Utilities",
+          "🥷 Account Abstraction"
         ],
       },
     },
@@ -188,12 +190,13 @@ const releases = [
       },
       "DripVerse SDK": {
         description: [
-          "🎉 Release v1"
+          "🎉 Release v1",
+          "🚀 Support Collection"
         ],
         link: "#",
       },
     },
-    status: "upcoming",
+    status: "ongoing",
   },
   {
     startDate: "January 2024",
@@ -203,9 +206,7 @@ const releases = [
       "DripVerse Platform": {
         description: [
           "🎉 Calypso Skale Mainnet",
-          "🎨 Redesigned UI",
-          "🎬 Dynamic Utilities",
-          "🥷 Account Abstraction"
+          "🎨 Redesigned UI"
         ],
       },
       // "DripVerse Wallet": {
@@ -213,7 +214,7 @@ const releases = [
       //   link: "#",
       // },
     },
-    status: "ongoing",
+    status: "active",
   },
   {
     startDate: "December 2023",

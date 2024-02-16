@@ -16,7 +16,7 @@ Transfer Data:
 const transferData = {
   from: "0x...",
   to: "0x...",
-  nftId: '1'
+  nftId: "1",
 };
 ```
 
@@ -34,7 +34,7 @@ Please make sure your `contractSigner` from previous step is derived from the ri
 ```
 
 ```js
-drip.transfer(transferData, contractSigner)
+drip.transfer(transferData, contractSigner);
 ```
 
 ```mdx-code-block
@@ -44,7 +44,7 @@ drip.transfer(transferData, contractSigner)
 
 ```js
 const amount = 10; // If you want to transfer 10 tokens.
-drip.transfer(transferData, contractSigner, amount)
+drip.transfer(transferData, contractSigner, amount);
 ```
 
 ```mdx-code-block

@@ -12,6 +12,16 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="sdk" label="SDK" default>
     <details>
+      <summary>1.1.1</summary>
+      <p>
+        <h3>🌟 Added</h3>
+        <ul>
+          <li>[Feature] Create Collection</li>
+          <li>[Feature] Mint NFT using Collection ID instead of Contract</li>
+        </ul>
+      </p>
+    </details>
+    <details>
       <summary>0.10.2</summary>
       <p>
         <h3>🌟 Added</h3>
