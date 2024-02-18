@@ -69,6 +69,11 @@
         }
       ]
     },
+    {
+      "✨ Smart NFTs": [
+        "guide/smartnft/introduction"
+      ]
+    },
     "guide/versioning",
     "guide/releases",
     "guide/roadmap"
