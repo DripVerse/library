@@ -5,7 +5,7 @@ sidebar_label: Collections
 hide_table_of_contents: false
 ---
 
-Learn about [what NFT Collections are](/guide/nft/collection) before going ahead.
+Learn about [what NFT Collections are](/guide/collection/introduction) before going ahead.
 
 ## Prerequisites
 

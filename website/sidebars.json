@@ -19,7 +19,6 @@
     {
       "💎 NFT": [
         "guide/nft/about",
-        "guide/nft/collection",
         {
           "🫙 Storage": [
             "guide/nft/storage/storage",
@@ -34,6 +33,16 @@
       "🏗️ Project": [
         "guide/project/project",
         "guide/project/new"
+      ]
+    },
+    {
+      "🗂️ Collection": [
+        "guide/collection/introduction"
+      ]
+    },
+    {
+      "🧿 Artefact": [
+        "guide/artefact/introduction"
       ]
     },
     {

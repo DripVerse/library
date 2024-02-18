@@ -1,8 +1,8 @@
 ---
-id: collection
-title: NFT Collection
-sidebar_label: 🗃️ About NFT Collection
-hide_table_of_contents: false
+id: introduction
+title: DripVerse Collection
+sidebar_label: 🗃️ Collection Introduction
+hide_table_of_contents: true
 ---
 
 import { CardShelf, CardItem } from "@site/components/featurelist"
@@ -18,3 +18,5 @@ Some popular NFT collections have gained significant attention and value in the 
 ![NFT Collections](/img/guide/collections.png "NFT Collections")
 
 Ideally, each collection is a separate smart contract on-chain or identified by a unique address on-chain. Each Collection can contain one or more NFTs. A collection will usually have a single creator. However, there might be more than one involved, like a group of individuals or an organisation.
+
+<Contact />

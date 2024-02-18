@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 import {FeatureList, Column, Feature, Contact} from "@site/components/featurelist"
 
-Utilities are an important part of the Cyberspace, as it lets us add actions to NFTs, thus making Smart NFTs. Utilities have their own specific functions as designed for.
+Utilities are an important part of the Cyberspace, as it lets us add actions to NFTs, thus making Smart NFTs. Utilities have their own specific functions as designed for. These functions are contained as separate objects called _Artefacts_. Utility is using one of the artefact with user customisation and creating that action that the artefact was intended for. _Currently, the artefact creation is not public._
 
 ### Available Utilities
 
