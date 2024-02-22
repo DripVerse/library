@@ -6,7 +6,7 @@
     "test": "cd ./website && npm run test"
   },
   "dependencies": {
-    "@docusaurus/plugin-google-gtag": "^2.2.0"
+    "@docusaurus/plugin-google-gtag": "^3.0.0"
   },
   "repository": {
     "type": "git",
