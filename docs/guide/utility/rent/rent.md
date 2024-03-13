@@ -5,7 +5,7 @@ sidebar_label: 💲 Rental NFT
 hide_table_of_contents: true
 ---
 
-![Rental NFT](/img/guide/utility/nft-renting.jpeg)
+![Rental NFT](/img/guide/utility/rental-dripverse.webp)
 
 In recent years, the world of digital assets has undergone a revolutionary transformation with the emergence of Non-Fungible Tokens (NFTs). These unique, blockchain-based tokens have allowed for the ownership and transfer of digital assets like art, music, and virtual real estate. However, a new player is entering the scene and promising to reshape the landscape even further – Rental NFTs.
 
