@@ -2,7 +2,7 @@ import React from "react";
 import "/css/components/roadmap.css";
 import Tilt from "react-vanilla-tilt";
 
-// Dec - Open Source DripVerse SDKs.
+// Dec - Open Source Toolings.
 
 const releases = [
   {
@@ -15,7 +15,7 @@ const releases = [
           "🎉 Advanced Metaverse"
         ],
       },
-      "DripVerse SDK": {
+      "Tooling": {
         description: [
           "👀 Open Source",
         ],
@@ -29,7 +29,7 @@ const releases = [
     title: "Coffee",
     version: "1.9",
     updates: {
-      "DripVerse SDK": {
+      "Tooling": {
         description: [
           "🎉 Social SDK v1",
           "Storage SDK v2",
@@ -80,7 +80,7 @@ const releases = [
           "🎉 Nested NFTs"
         ],
       },
-      "DripVerse SDK": {
+      "Tooling": {
         description: [
           "🎉 Nested NFTs"
         ],
@@ -99,7 +99,7 @@ const releases = [
           "🎉 Metaverse Support"
         ],
       },
-      "DripVerse SDK": {
+      "Tooling": {
         description: [
           "🎉 Wallet Support v2",
           "🎉 Metaverse SDK v1"
@@ -132,10 +132,14 @@ const releases = [
       "DripVerse Platform": {
         description: [
           "🎨 Consumer Features",
-          "🚀 Creator Vibe"
+          "🎬 Dynamic Utilities",
+          "🚀 Creator Vibe",
+          "🥷 Account Abstraction",
+          "✨ Cosmos Compatible",
+          "♻️ Interoperable Assets across EVM L2s",
         ],
       },
-      "DripVerse SDK": {
+      "Tooling": {
         description: ["🎉 Storage SDK v1"],
         link: "#",
       },
@@ -149,16 +153,23 @@ const releases = [
     updates: {
       "DripVerse Platform": {
         description: [
-          "♻️ Interoperable Assets across EVM L2s",
-          "✨ Cosmos Compatible"
+          "💰 Rental NFTs",
+          "💰 Rental NFTs",
         ],
       },
-      "DripVerse SDK": {
-        description: ["🎉 Cosmos Integration"],
+      "Tooling": {
+        description: [
+          "🎉 Rust SDK v0.1",
+          "🚀 Multilink Network APIs Open"
+        ],
+        link: "#",
+      },
+      "CLI": {
+        description: ["🎉 Web3 CLI v0.1"],
         link: "#",
       },
     },
-    status: "upcoming",
+    status: "ongoing",
   },
   {
     startDate: "March 2024",
@@ -168,14 +179,12 @@ const releases = [
       "DripVerse Platform": {
         description: [
           "🎨 Mobile UX Redesigned",
-          "📱 Creator Amigo",
           "📈 Utility Marketplace",
-          "🎬 Dynamic Utilities",
-          "🥷 Account Abstraction"
+          "✨ Collection Page"
         ],
       },
     },
-    status: "upcoming",
+    status: "active",
   },
   {
     startDate: "February 2024",
@@ -184,11 +193,10 @@ const releases = [
     updates: {
       "DripVerse Platform": {
         description: [
-          "🎨 Utility UX Redesigned",
-          "💰 Rental NFTs"
+          "🎨 Utility UX Redesigned"
         ],
       },
-      "DripVerse SDK": {
+      "Tooling": {
         description: [
           "🎉 Release v1",
           "🚀 Support Collection"
@@ -196,7 +204,7 @@ const releases = [
         link: "#",
       },
     },
-    status: "ongoing",
+    status: "active",
   },
   {
     startDate: "January 2024",
@@ -289,7 +297,7 @@ const releases = [
         ],
         link: "#",
       },
-      "DripVerse SDK": {
+      "Tooling": {
         description: [
           "🎉 Zetachain Testnet",
           "🎉 Skale Testnet",
@@ -319,7 +327,7 @@ const releases = [
         ],
         link: "#",
       },
-      "DripVerse SDK": {
+      "Tooling": {
         description: [
           "Web3Storage Module",
           "🎉 Sepolia Testnet Support",
@@ -342,7 +350,7 @@ const releases = [
         description: ["Landing Page Redesign", "Use Cases re-worked"],
         link: "#",
       },
-      "DripVerse SDK": {
+      "Tooling": {
         description: [
           "Trade ERC721 and ERC1155 on DripVerse",
           "Mint for a different user",
@@ -371,12 +379,12 @@ const releases = [
         ],
         link: "#",
       },
-      "DripVerse SDK": {
+      "Tooling": {
         description: ["ERC1155"],
         blog: "#",
         link: "#",
       },
-      "DripVerse CLI Tool": {
+      "CLI": {
         description: [
           "Deploy Static Single and Multi-page Website to IPFS from CLI",
         ],
@@ -398,7 +406,7 @@ const releases = [
         ],
         link: "#",
       },
-      "DripVerse SDK": {
+      "Tooling": {
         description: [
           "Transfer ERC721 NFT",
           "Wallet Support",
@@ -437,12 +445,12 @@ const releases = [
         ],
         link: "https://blog.dripverse.org/dripverse-protocol-partners-with-arcana/",
       },
-      "DripVerse SDK": {
+      "Tooling": {
         description: ["Migrated to TypeScript"],
         blog: "#",
         link: "https://twitter.com/0xDripVerse/status/1636063025554919425",
       },
-      "DripVerse CLI Tool": {
+      "CLI": {
         description: [
           "A Command Line Tool to run make it easy for terminal friendly interfaces. Access your files and nfts using drip command.",
           "Bulk Mint NFTs securely using our command line tool. Mint single file or entire directory with one command.",
@@ -463,7 +471,7 @@ const releases = [
         description: ["Project Page"],
         link: "#",
       },
-      "DripVerse SDK": {
+      "Tooling": {
         description: ["Added Mint function."],
         blog: "#",
         link: "#",
@@ -512,9 +520,9 @@ const releases = [
         blog: "https://blog.dripverse.org/pre-alpha-release/",
         link: "https://twitter.com/0xDripVerse/status/1602897679406825472",
       },
-      "DripVerse SDK": {
+      "Tooling": {
         description: [
-          "The first stable testnet release of DripVerse SDK on npm.",
+          "The first stable testnet release of Tooling on npm.",
         ],
         docs: "",
         features: {
@@ -578,8 +586,8 @@ const releases = [
 function updateTypes(title) {
   const updateTypeMap = {
     "DripVerse Platform": "🚀",
-    "DripVerse SDK": "📦",
-    "DripVerse CLI Tool": "💻",
+    "Tooling": "📦",
+    "CLI": "💻",
     "Tweet NFTs": "✨",
   };
   if (Object.keys(updateTypeMap).includes(title)) {
