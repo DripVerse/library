@@ -116,13 +116,15 @@ const releases = [
     updates: {
       "DripVerse Platform": {
         description: [
-          "🎨 DAO Support",
-          "🚀 DAO Utilities",
-          "🎉 Content Utilities"
+          "🚀 Marketplace",
+          "✨ Create Collection",
+          "🕶️ Collection Category",
+          "📂 Contract Template",
+          "📱 Collection Farcaster Frames"
         ],
       },
     },
-    status: "upcoming",
+    status: "ongoing",
   },
   {
     startDate: "May 2024",
@@ -131,45 +133,38 @@ const releases = [
     updates: {
       "DripVerse Platform": {
         description: [
-          "🎨 Consumer Features",
-          "🎬 Dynamic Utilities",
-          "🚀 Creator Vibe",
-          "🥷 Account Abstraction",
-          "✨ Cosmos Compatible",
-          "♻️ Interoperable Assets across EVM L2s",
+          "💰 Rental NFTs",
+          "🎟️ Ticket NFTs SDK Integration"
         ],
       },
       "Tooling": {
-        description: ["🎉 Storage SDK v1"],
+        description: ["🎉 Pre-minting, Lazy Minting"],
+        link: "#",
+      },
+      "CLI": {
+        description: ["🎉 Pre-minting in Bulk"],
         link: "#",
       },
     },
-    status: "upcoming",
+    status: "active",
   },
   {
     startDate: "April 2024",
     title: "Kyubi",
     version: "1.2",
     updates: {
-      "DripVerse Platform": {
-        description: [
-          "💰 Rental NFTs",
-          "💰 Rental NFTs",
-        ],
-      },
       "Tooling": {
         description: [
-          "🎉 Rust SDK v0.1",
           "🚀 Multilink Network APIs Open"
         ],
         link: "#",
       },
       "CLI": {
-        description: ["🎉 Web3 CLI v0.1"],
+        description: ["🎉 Maintenance update"],
         link: "#",
       },
     },
-    status: "ongoing",
+    status: "past",
   },
   {
     startDate: "March 2024",
@@ -184,7 +179,7 @@ const releases = [
         ],
       },
     },
-    status: "active",
+    status: "past",
   },
   {
     startDate: "February 2024",
@@ -204,7 +199,7 @@ const releases = [
         link: "#",
       },
     },
-    status: "active",
+    status: "past",
   },
   {
     startDate: "January 2024",
@@ -222,7 +217,7 @@ const releases = [
       //   link: "#",
       // },
     },
-    status: "active",
+    status: "past",
   },
   {
     startDate: "December 2023",
@@ -238,7 +233,7 @@ const releases = [
         ],
       },
     },
-    status: "active",
+    status: "past",
   },
   {
     startDate: "November 2023",
@@ -257,7 +252,7 @@ const releases = [
         ],
       },
     },
-    status: "active",
+    status: "past",
   },
   {
     startDate: "October 2023",
@@ -274,7 +269,7 @@ const releases = [
         ],
       }
     },
-    status: "active",
+    status: "past",
   },
   {
     startDate: "September 2023",
@@ -311,7 +306,7 @@ const releases = [
         link: "#",
       },
     },
-    status: "active",
+    status: "past",
   },
   {
     startDate: "July 2023",
