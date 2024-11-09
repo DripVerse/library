@@ -11,10 +11,7 @@
     },
     "guide/mission",
     {
-      "🦾 Supported": [
-        "guide/supported/network",
-        "guide/supported/login"
-      ]
+      "🦾 Supported": ["guide/supported/network", "guide/supported/login"]
     },
     {
       "💎 NFT": [
@@ -30,20 +27,13 @@
       ]
     },
     {
-      "🏗️ Project": [
-        "guide/project/project",
-        "guide/project/new"
-      ]
+      "🏗️ Project": ["guide/project/project", "guide/project/new"]
     },
     {
-      "🗂️ Collection": [
-        "guide/collection/introduction"
-      ]
+      "🗂️ Collection": ["guide/collection/introduction"]
     },
     {
-      "🧿 Artefact": [
-        "guide/artefact/introduction"
-      ]
+      "🧿 Artefact": ["guide/artefact/introduction"]
     },
     {
       "🧱 Utility": [
@@ -54,25 +44,17 @@
             "guide/utility/gatekeeper/setup",
             "guide/utility/gatekeeper/sdk"
           ],
-          "🎫 Pass": [
-            "guide/utility/pass/about",
-            "guide/utility/pass/setup"
-          ]
+          "🎫 Pass": ["guide/utility/pass/about", "guide/utility/pass/setup"]
         },
         "guide/utility/calendly",
         "guide/utility/discord",
         {
-          "💲 Rent": [
-            "guide/utility/rent/rent",
-            "guide/utility/rent/erc4907"
-          ]
+          "💲 Rent": ["guide/utility/rent/rent", "guide/utility/rent/erc4907"]
         }
       ]
     },
     {
-      "✨ Smart NFTs": [
-        "guide/smartnft/introduction"
-      ]
+      "✨ Smart NFTs": ["guide/smartnft/introduction"]
     },
     "guide/versioning",
     "guide/releases",
@@ -102,7 +84,8 @@
         "sdk/js/list",
         "sdk/js/unlist",
         "sdk/js/buy",
-        "sdk/js/mint-bulk"
+        "sdk/js/mint-bulk",
+        "sdk/js/token"
       ]
     }
   ],
